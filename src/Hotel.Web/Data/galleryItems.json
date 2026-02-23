@@ -1,0 +1,82 @@
+﻿[
+  {
+    "slug": "gallery-hotel-lobby",
+    "titleKey": "Gallery.Hotel.Lobby.Title",
+    "shortDescriptionKey": "Gallery.Hotel.Lobby.Short",
+    "category": "Hotel",
+    "image": "/img/hotel/home-hero.jpg",
+    "isVideoPlaceholder": false
+  },
+  {
+    "slug": "gallery-hotel-terrace",
+    "titleKey": "Gallery.Hotel.Terrace.Title",
+    "shortDescriptionKey": "Gallery.Hotel.Terrace.Short",
+    "category": "Hotel",
+    "image": "/img/hotel/contact-location.jpg",
+    "isVideoPlaceholder": false
+  },
+  {
+    "slug": "gallery-room-deluxe",
+    "titleKey": "Gallery.Room.Deluxe.Title",
+    "shortDescriptionKey": "Gallery.Room.Deluxe.Short",
+    "category": "Rooms",
+    "image": "/img/hotel/room-deluxe.jpg",
+    "isVideoPlaceholder": false
+  },
+  {
+    "slug": "gallery-room-villa",
+    "titleKey": "Gallery.Room.Villa.Title",
+    "shortDescriptionKey": "Gallery.Room.Villa.Short",
+    "category": "Rooms",
+    "image": "/img/hotel/room-premium-villa.jpg",
+    "isVideoPlaceholder": false
+  },
+  {
+    "slug": "gallery-dining-signature",
+    "titleKey": "Gallery.Dining.Signature.Title",
+    "shortDescriptionKey": "Gallery.Dining.Signature.Short",
+    "category": "Dining",
+    "image": "/img/hotel/dining-aura-main.jpg",
+    "isVideoPlaceholder": false
+  },
+  {
+    "slug": "gallery-dining-rooftop",
+    "titleKey": "Gallery.Dining.Rooftop.Title",
+    "shortDescriptionKey": "Gallery.Dining.Rooftop.Short",
+    "category": "Dining",
+    "image": "/img/hotel/dining-shoreline-grill.jpg",
+    "isVideoPlaceholder": false
+  },
+  {
+    "slug": "gallery-beach-cabana",
+    "titleKey": "Gallery.Beach.Cabana.Title",
+    "shortDescriptionKey": "Gallery.Beach.Cabana.Short",
+    "category": "Beach",
+    "image": "/img/hotel/experience-beach-pool.jpg",
+    "isVideoPlaceholder": false
+  },
+  {
+    "slug": "gallery-beach-sunset",
+    "titleKey": "Gallery.Beach.Sunset.Title",
+    "shortDescriptionKey": "Gallery.Beach.Sunset.Short",
+    "category": "Beach",
+    "image": "/img/hotel/experience-yacht.jpg",
+    "isVideoPlaceholder": false
+  },
+  {
+    "slug": "gallery-spa-suite",
+    "titleKey": "Gallery.Spa.Suite.Title",
+    "shortDescriptionKey": "Gallery.Spa.Suite.Short",
+    "category": "Spa",
+    "image": "/img/hotel/wellness-spa.jpg",
+    "isVideoPlaceholder": false
+  },
+  {
+    "slug": "gallery-spa-ritual",
+    "titleKey": "Gallery.Spa.Ritual.Title",
+    "shortDescriptionKey": "Gallery.Spa.Ritual.Short",
+    "category": "Spa",
+    "image": "/img/hotel/wellness-hamam.jpg",
+    "isVideoPlaceholder": false
+  }
+]

@@ -1,0 +1,44 @@
+﻿@model StandardPageViewModel
+@inject IStringLocalizer<SharedResource> Localizer
+
+<section class="page-hero compact py-5 bg-light" aria-labelledby="experiences-title">
+    <div class="container">
+        <h1 id="experiences-title">@Localizer["Nav.Experiences"]</h1>
+        <p class="lead mb-0">@Localizer["Experiences.Intro"]</p>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-6">
+                <article class="feature-block h-100">
+                    <img src="~/img/hotel/experience-beach-pool.jpg" width="640" height="360" alt="@Localizer["Experiences.Beach.Title"]" loading="lazy" class="img-fluid rounded-4 mb-3" />
+                    <h2 class="h4">@Localizer["Experiences.Beach.Title"]</h2>
+                    <p class="mb-0">@Localizer["Experiences.Beach.Description"]</p>
+                </article>
+            </div>
+            <div class="col-md-6">
+                <article class="feature-block h-100">
+                    <img src="~/img/hotel/experience-water-sports.jpg" width="640" height="360" alt="@Localizer["Experiences.WaterSports.Title"]" loading="lazy" class="img-fluid rounded-4 mb-3" />
+                    <h2 class="h4">@Localizer["Experiences.WaterSports.Title"]</h2>
+                    <p class="mb-0">@Localizer["Experiences.WaterSports.Description"]</p>
+                </article>
+            </div>
+            <div class="col-md-6">
+                <article class="feature-block h-100">
+                    <img src="~/img/hotel/experience-yacht.jpg" width="640" height="360" alt="@Localizer["Experiences.Yacht.Title"]" loading="lazy" class="img-fluid rounded-4 mb-3" />
+                    <h2 class="h4">@Localizer["Experiences.Yacht.Title"]</h2>
+                    <p class="mb-0">@Localizer["Experiences.Yacht.Description"]</p>
+                </article>
+            </div>
+            <div class="col-md-6">
+                <article class="feature-block h-100">
+                    <img src="~/img/hotel/experience-sport.jpg" width="640" height="360" alt="@Localizer["Experiences.Sport.Title"]" loading="lazy" class="img-fluid rounded-4 mb-3" />
+                    <h2 class="h4">@Localizer["Experiences.Sport.Title"]</h2>
+                    <p class="mb-0">@Localizer["Experiences.Sport.Description"]</p>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>

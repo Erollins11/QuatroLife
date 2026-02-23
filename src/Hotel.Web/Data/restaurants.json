@@ -1,0 +1,29 @@
+﻿[
+  {
+    "slug": "basilico-restaurant",
+    "titleKey": "Dining.Basilico.Title",
+    "shortDescriptionKey": "Dining.Basilico.Short",
+    "featuresKeys": ["Feature.TastingMenu", "Feature.SeasonalLocal", "Feature.Sommelier"],
+    "images": ["/img/hotel/dining-aura-main.jpg"],
+    "workingHoursKey": "Dining.Hours.AllDay",
+    "dressCodeKey": "Dining.Dress.SmartCasual"
+  },
+  {
+    "slug": "azure-beach-club",
+    "titleKey": "Dining.Azure.Title",
+    "shortDescriptionKey": "Dining.Azure.Short",
+    "featuresKeys": ["Feature.BeachService", "Feature.CraftCocktail", "Feature.DJSunset"],
+    "images": ["/img/hotel/dining-cove-lounge.jpg"],
+    "workingHoursKey": "Dining.Hours.Beach",
+    "dressCodeKey": "Dining.Dress.Resort"
+  },
+  {
+    "slug": "solis-rooftop",
+    "titleKey": "Dining.Solis.Title",
+    "shortDescriptionKey": "Dining.Solis.Short",
+    "featuresKeys": ["Feature.PanoramicView", "Feature.FireGrill", "Feature.LiveMusic"],
+    "images": ["/img/hotel/dining-shoreline-grill.jpg"],
+    "workingHoursKey": "Dining.Hours.Rooftop",
+    "dressCodeKey": "Dining.Dress.Evening"
+  }
+]

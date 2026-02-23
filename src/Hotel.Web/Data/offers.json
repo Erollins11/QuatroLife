@@ -1,0 +1,26 @@
+﻿[
+  {
+    "slug": "early-booking",
+    "titleKey": "Offer.EarlyBooking.Title",
+    "shortDescriptionKey": "Offer.EarlyBooking.Short",
+    "featuresKeys": ["Feature.Discount20", "Feature.FlexibleDate", "Feature.BreakfastIncluded"],
+    "images": ["/img/hotel/home-hero.jpg"],
+    "validityKey": "Offer.EarlyBooking.Validity"
+  },
+  {
+    "slug": "long-stay",
+    "titleKey": "Offer.LongStay.Title",
+    "shortDescriptionKey": "Offer.LongStay.Short",
+    "featuresKeys": ["Feature.FreeTransfer", "Feature.LaundryCredit", "Feature.SpaCredit"],
+    "images": ["/img/hotel/contact-location.jpg"],
+    "validityKey": "Offer.LongStay.Validity"
+  },
+  {
+    "slug": "honeymoon-escape",
+    "titleKey": "Offer.Honeymoon.Title",
+    "shortDescriptionKey": "Offer.Honeymoon.Short",
+    "featuresKeys": ["Feature.CoupleMassage", "Feature.PrivateDinner", "Feature.SparklingWelcome"],
+    "images": ["/img/hotel/wellness-spa.jpg"],
+    "validityKey": "Offer.Honeymoon.Validity"
+  }
+]

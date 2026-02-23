@@ -1,0 +1,78 @@
+﻿@model EventsPageViewModel
+@inject IStringLocalizer<SharedResource> Localizer
+
+<section class="page-hero compact py-5 bg-light" aria-labelledby="events-title">
+    <div class="container">
+        <h1 id="events-title">@Localizer["Nav.Events"]</h1>
+        <p class="lead mb-0">@Localizer["Events.Intro"]</p>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row g-4 mb-5">
+            <div class="col-md-6">
+                <article class="card h-100 border-0 shadow-sm">
+                    <img src="~/img/hotel/events-wedding.jpg" width="640" height="360" alt="@Localizer["Events.Weddings.Title"]" class="card-img-top" loading="lazy" />
+                    <div class="card-body">
+                        <h2 class="h4">@Localizer["Events.Weddings.Title"]</h2>
+                        <p class="mb-0">@Localizer["Events.Weddings.Description"]</p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6">
+                <article class="card h-100 border-0 shadow-sm">
+                    <img src="~/img/hotel/events-meeting.jpg" width="640" height="360" alt="@Localizer["Events.Meetings.Title"]" class="card-img-top" loading="lazy" />
+                    <div class="card-body">
+                        <h2 class="h4">@Localizer["Events.Meetings.Title"]</h2>
+                        <p class="mb-0">@Localizer["Events.Meetings.Description"]</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <article class="form-shell" aria-labelledby="event-form-title">
+            <h2 id="event-form-title" class="h4 mb-3">@Localizer["Events.Form.Title"]</h2>
+
+            @if (Model.IsSubmitted)
+            {
+                <div class="alert alert-success" role="status">@Localizer["Events.Form.Success"]</div>
+            }
+
+            <form asp-action="SubmitEventInquiry" asp-controller="Site" asp-route-culture="@Model.Page.Culture" method="post" novalidate>
+                @Html.AntiForgeryToken()
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label asp-for="Form.Name" class="form-label">@Localizer["Form.Name"]</label>
+                        <input asp-for="Form.Name" class="form-control" aria-required="true" />
+                        <span asp-validation-for="Form.Name" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <label asp-for="Form.Email" class="form-label">@Localizer["Form.Email"]</label>
+                        <input asp-for="Form.Email" class="form-control" aria-required="true" />
+                        <span asp-validation-for="Form.Email" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <label asp-for="Form.Phone" class="form-label">@Localizer["Form.Phone"]</label>
+                        <input asp-for="Form.Phone" class="form-control" aria-required="true" />
+                        <span asp-validation-for="Form.Phone" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <label asp-for="Form.Date" class="form-label">@Localizer["Form.Date"]</label>
+                        <input asp-for="Form.Date" class="form-control" type="date" aria-required="true" />
+                        <span asp-validation-for="Form.Date" class="text-danger"></span>
+                    </div>
+                    <div class="col-12">
+                        <label asp-for="Form.Message" class="form-label">@Localizer["Form.Message"]</label>
+                        <textarea asp-for="Form.Message" class="form-control" rows="5" aria-required="true"></textarea>
+                        <span asp-validation-for="Form.Message" class="text-danger"></span>
+                    </div>
+                </div>
+                <button class="btn btn-gold mt-4" type="submit">@Localizer["Events.Form.Submit"]</button>
+            </form>
+
+            <p class="small text-muted mt-3 mb-0">@Localizer["Form.CrmNote"]</p>
+        </article>
+    </div>
+</section>

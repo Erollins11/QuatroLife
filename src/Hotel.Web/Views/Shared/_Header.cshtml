@@ -1,0 +1,52 @@
+﻿@model PageContextViewModel
+@inject IConfiguration Configuration
+@inject IStringLocalizer<SharedResource> Localizer
+@inject ILanguageRouteService Routes
+
+@{
+    string navPath(string trKey) => Routes.PathFor(Model.Culture, trKey);
+    var siteName = Configuration["Seo:SiteName"] ?? "Quatro Life";
+
+    var navItems = new[]
+    {
+        (Key: "Nav.Home", Url: navPath("home")),
+        (Key: "Nav.Accommodation", Url: navPath("konaklama")),
+        (Key: "Nav.Dining", Url: navPath("yeme-icme")),
+        (Key: "Nav.Experiences", Url: navPath("deneyimler")),
+        (Key: "Nav.Wellness", Url: navPath("wellness")),
+        (Key: "Nav.Offers", Url: navPath("teklifler")),
+        (Key: "Nav.Events", Url: navPath("etkinlikler")),
+        (Key: "Nav.Gallery", Url: navPath("galeri")),
+        (Key: "Nav.Contact", Url: navPath("iletisim"))
+    };
+}
+
+<header class="site-header sticky-top" aria-label="@Localizer["Accessibility.MainNavigation"]">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm" aria-label="@Localizer["Accessibility.MainNavigation"]">
+        <div class="container">
+            <a class="navbar-brand d-inline-flex align-items-center gap-2 fw-semibold" href="@Routes.PathFor(Model.Culture, "home")">
+                <img src="~/img/hotel/logo.jpg" class="brand-logo" width="120" height="40" alt="@siteName" loading="eager" />
+                <span class="brand-name">@siteName</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="@Localizer["Accessibility.ToggleNavigation"]">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    @foreach (var item in navItems)
+                    {
+                        var isActive = Model.CurrentPath.Equals(item.Url, StringComparison.OrdinalIgnoreCase) || (item.Url != $"/{Model.Culture}" && Model.CurrentPath.StartsWith(item.Url, StringComparison.OrdinalIgnoreCase));
+                        <li class="nav-item">
+                            <a class="nav-link @(isActive ? "active" : string.Empty)" href="@item.Url">@Localizer[item.Key]</a>
+                        </li>
+                    }
+                </ul>
+                <div class="d-flex align-items-center gap-2">
+                    <a class="btn btn-outline-dark btn-sm" href="@Model.SwitchToTrUrl" hreflang="tr" lang="tr" aria-label="@Localizer["Accessibility.SwitchToTurkish"]">TR</a>
+                    <a class="btn btn-outline-dark btn-sm" href="@Model.SwitchToEnUrl" hreflang="en" lang="en" aria-label="@Localizer["Accessibility.SwitchToEnglish"]">EN</a>
+                    <a class="btn btn-gold" href="@Model.BookingUrl" target="@(Model.IsBookingExternal ? "_blank" : null)" rel="@(Model.IsBookingExternal ? "noopener noreferrer nofollow" : null)">@Localizer["Common.BookNow"]</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

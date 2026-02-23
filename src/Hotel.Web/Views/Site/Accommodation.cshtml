@@ -1,0 +1,97 @@
+﻿@model AccommodationPageViewModel
+@inject IStringLocalizer<SharedResource> Localizer
+
+<section class="page-hero compact py-5 bg-light" aria-labelledby="accommodation-title">
+    <div class="container">
+        <h1 id="accommodation-title">@Localizer["Nav.Accommodation"]</h1>
+        <p class="lead mb-0">@Localizer["Accommodation.Intro"]</p>
+    </div>
+</section>
+
+<section class="py-4" aria-label="@Localizer["Accommodation.Filter.Title"]">
+    <div class="container">
+        <div class="filter-panel" data-room-filters>
+            <div class="row g-3">
+                <div class="col-md-2">
+                    <label for="capacityFilter" class="form-label">@Localizer["Accommodation.Filter.Capacity"]</label>
+                    <select id="capacityFilter" class="form-select" data-filter="capacity">
+                        <option value="">@Localizer["Common.All"]</option>
+                        <option value="2">2+</option>
+                        <option value="3">3+</option>
+                        <option value="4">4+</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="minSizeFilter" class="form-label">@Localizer["Accommodation.Filter.MinSize"]</label>
+                    <select id="minSizeFilter" class="form-select" data-filter="min-size">
+                        <option value="">@Localizer["Common.All"]</option>
+                        <option value="30">30 m²+</option>
+                        <option value="40">40 m²+</option>
+                        <option value="60">60 m²+</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="viewFilter" class="form-label">@Localizer["Accommodation.Filter.View"]</label>
+                    <select id="viewFilter" class="form-select" data-filter="view">
+                        <option value="">@Localizer["Common.All"]</option>
+                        <option value="sea">@Localizer["View.sea"]</option>
+                        <option value="garden">@Localizer["View.garden"]</option>
+                        <option value="marina">@Localizer["View.marina"]</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="bedFilter" class="form-label">@Localizer["Accommodation.Filter.Bed"]</label>
+                    <select id="bedFilter" class="form-select" data-filter="bed">
+                        <option value="">@Localizer["Common.All"]</option>
+                        <option value="king">@Localizer["Bed.king"]</option>
+                        <option value="twin">@Localizer["Bed.twin"]</option>
+                        <option value="queen">@Localizer["Bed.queen"]</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="poolFilter" class="form-label">@Localizer["Accommodation.Filter.PrivatePool"]</label>
+                    <select id="poolFilter" class="form-select" data-filter="pool">
+                        <option value="">@Localizer["Common.All"]</option>
+                        <option value="true">@Localizer["Common.Yes"]</option>
+                        <option value="false">@Localizer["Common.No"]</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pb-5">
+    <div class="container">
+        <div class="row g-4" data-room-grid>
+            @foreach (var room in Model.Rooms)
+            {
+                <div class="col-md-6 col-xl-4 room-card" data-room-item data-capacity="@room.Capacity" data-size="@room.SizeSqm" data-view="@room.ViewType" data-bed="@room.BedType" data-pool="@room.HasPrivatePool.ToString().ToLowerInvariant()">
+                    <article class="card h-100 border-0 shadow-sm">
+                        <img src="@room.Images.FirstOrDefault()" class="card-img-top" width="640" height="360" alt="@Localizer[room.TitleKey]" loading="lazy" />
+                        <div class="card-body d-flex flex-column">
+                            <h2 class="h5">@Localizer[room.TitleKey]</h2>
+                            <p class="text-muted">@Localizer[room.ShortDescriptionKey]</p>
+                            <ul class="list-inline small mb-3 text-secondary">
+                                <li class="list-inline-item">@room.SizeSqm m²</li>
+                                <li class="list-inline-item">@Localizer["Common.Capacity"]: @room.Capacity</li>
+                                <li class="list-inline-item">@Localizer[$"View.{room.ViewType}"]</li>
+                            </ul>
+                            <ul class="feature-list mb-3">
+                                @foreach (var featureKey in room.FeaturesKeys.Take(3))
+                                {
+                                    <li>@Localizer[featureKey]</li>
+                                }
+                            </ul>
+                            <div class="d-flex gap-2 mt-auto">
+                                <a href="@Url.Action("AccommodationDetail", "Site", new { culture = Model.Page.Culture, slug = room.Slug })" class="btn btn-outline-dark">@Localizer["Common.Details"]</a>
+                                <a href="@Model.Page.BookingUrl" class="btn btn-gold">@Localizer["Common.BookNow"]</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            }
+        </div>
+        <p data-room-empty class="alert alert-light mt-4 d-none">@Localizer["Accommodation.Filter.Empty"]</p>
+    </div>
+</section>

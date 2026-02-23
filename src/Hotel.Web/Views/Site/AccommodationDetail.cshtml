@@ -1,0 +1,43 @@
+﻿@model RoomDetailPageViewModel
+@inject IStringLocalizer<SharedResource> Localizer
+@inject ILanguageRouteService Routes
+
+<section class="page-hero compact py-5 bg-light" aria-labelledby="room-title">
+    <div class="container">
+        <a href="@Routes.PathFor(Model.Page.Culture, "konaklama")" class="small link-dark">@Localizer["Common.BackToList"]</a>
+        <h1 id="room-title" class="mt-2">@Localizer[Model.Room.TitleKey]</h1>
+        <p class="lead mb-0">@Localizer[Model.Room.ShortDescriptionKey]</p>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-8">
+                <img src="@Model.Room.Images.FirstOrDefault()" class="img-fluid rounded-4 shadow-sm" width="1200" height="720" alt="@Localizer[Model.Room.TitleKey]" loading="lazy" />
+            </div>
+            <div class="col-lg-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <h2 class="h5">@Localizer["Accommodation.Specs"]</h2>
+                        <ul class="list-unstyled mb-3">
+                            <li><strong>@Localizer["Accommodation.Filter.Capacity"]:</strong> @Model.Room.Capacity</li>
+                            <li><strong>@Localizer["Accommodation.Filter.MinSize"]:</strong> @Model.Room.SizeSqm m²</li>
+                            <li><strong>@Localizer["Accommodation.Filter.Bed"]:</strong> @Localizer[$"Bed.{Model.Room.BedType}"]</li>
+                            <li><strong>@Localizer["Accommodation.Filter.View"]:</strong> @Localizer[$"View.{Model.Room.ViewType}"]</li>
+                            <li><strong>@Localizer["Accommodation.Filter.PrivatePool"]:</strong> @(Model.Room.HasPrivatePool ? Localizer["Common.Yes"] : Localizer["Common.No"])</li>
+                        </ul>
+                        <h3 class="h6">@Localizer["Accommodation.Features"]</h3>
+                        <ul class="feature-list mb-4">
+                            @foreach (var feature in Model.Room.FeaturesKeys)
+                            {
+                                <li>@Localizer[feature]</li>
+                            }
+                        </ul>
+                        <a href="@Model.Page.BookingUrl" class="btn btn-gold w-100">@Localizer["Common.CheckAvailability"]</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

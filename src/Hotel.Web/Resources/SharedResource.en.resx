@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Accessibility.Footer" xml:space="preserve"><value>Footer</value></data>
+  <data name="Accessibility.MainNavigation" xml:space="preserve"><value>Main navigation</value></data>
+  <data name="Accessibility.SkipToContent" xml:space="preserve"><value>Skip to content</value></data>
+  <data name="Accessibility.SwitchToEnglish" xml:space="preserve"><value>Switch to English</value></data>
+  <data name="Accessibility.SwitchToTurkish" xml:space="preserve"><value>Switch to Turkish</value></data>
+  <data name="Accessibility.ToggleNavigation" xml:space="preserve"><value>Toggle navigation</value></data>
+  <data name="Accommodation.Features" xml:space="preserve"><value>Highlights</value></data>
+  <data name="Accommodation.Filter.Bed" xml:space="preserve"><value>Bed type</value></data>
+  <data name="Accommodation.Filter.Capacity" xml:space="preserve"><value>Guests</value></data>
+  <data name="Accommodation.Filter.Empty" xml:space="preserve"><value>No room matched your filters.</value></data>
+  <data name="Accommodation.Filter.MinSize" xml:space="preserve"><value>Minimum sqm</value></data>
+  <data name="Accommodation.Filter.PrivatePool" xml:space="preserve"><value>Private pool</value></data>
+  <data name="Accommodation.Filter.Title" xml:space="preserve"><value>Room filters</value></data>
+  <data name="Accommodation.Filter.View" xml:space="preserve"><value>View</value></data>
+  <data name="Accommodation.Intro" xml:space="preserve"><value>Sunlit rooms and suites designed for a premium Bodrum stay.</value></data>
+  <data name="Accommodation.Specs" xml:space="preserve"><value>Room details</value></data>
+  <data name="Bed.king" xml:space="preserve"><value>King</value></data>
+  <data name="Bed.queen" xml:space="preserve"><value>Queen</value></data>
+  <data name="Bed.twin" xml:space="preserve"><value>Twin</value></data>
+  <data name="Common.All" xml:space="preserve"><value>All</value></data>
+  <data name="Common.BackToList" xml:space="preserve"><value>Back to list</value></data>
+  <data name="Common.BookNow" xml:space="preserve"><value>Check availability</value></data>
+  <data name="Common.Call" xml:space="preserve"><value>Call now</value></data>
+  <data name="Common.Capacity" xml:space="preserve"><value>Capacity</value></data>
+  <data name="Common.CheckAvailability" xml:space="preserve"><value>Check availability</value></data>
+  <data name="Common.ComingSoon" xml:space="preserve"><value>Coming soon</value></data>
+  <data name="Common.Details" xml:space="preserve"><value>Details</value></data>
+  <data name="Common.No" xml:space="preserve"><value>No</value></data>
+  <data name="Common.ReadMore" xml:space="preserve"><value>Explore</value></data>
+  <data name="Common.WhatsApp" xml:space="preserve"><value>WhatsApp</value></data>
+  <data name="Common.Yes" xml:space="preserve"><value>Yes</value></data>
+  <data name="Concept.Description" xml:space="preserve"><value>Brand tone: boutique luxury. Refined design, calm pace, curated experiences, and a clear stay concept.</value></data>
+  <data name="Concept.Title" xml:space="preserve"><value>Concept clarity</value></data>
+  <data name="Contact.AddressTitle" xml:space="preserve"><value>Location and transfer</value></data>
+  <data name="Contact.Form.Submit" xml:space="preserve"><value>Send message</value></data>
+  <data name="Contact.Form.Success" xml:space="preserve"><value>Your message was received. Our team will get back to you shortly.</value></data>
+  <data name="Contact.Form.Title" xml:space="preserve"><value>General contact form</value></data>
+  <data name="Contact.Intro" xml:space="preserve"><value>Located in Gumbet with easy access from Bodrum center and optional transfer support.</value></data>
+  <data name="Contact.MapAlt" xml:space="preserve"><value>Quatro Life Gumbet location photo</value></data>
+  <data name="Contact.TransferInfo" xml:space="preserve"><value>For airport or marina transfers, contact us before your arrival.</value></data>
+  <data name="CookieConsent.Accept" xml:space="preserve"><value>Accept</value></data>
+  <data name="CookieConsent.Text" xml:space="preserve"><value>We use cookies to improve your browsing experience.</value></data>
+  <data name="Dining.Azure.Short" xml:space="preserve"><value>Beach-led menu with light plates and craft cocktails.</value></data>
+  <data name="Dining.Azure.Title" xml:space="preserve"><value>Azure Beach Club</value></data>
+  <data name="Dining.Basilico.Short" xml:space="preserve"><value>Fine dining interpretation with Aegean ingredients and open kitchen.</value></data>
+  <data name="Dining.Basilico.Title" xml:space="preserve"><value>Basilico Restaurant</value></data>
+  <data name="Dining.Concept" xml:space="preserve"><value>Dining concept</value></data>
+  <data name="Dining.Dress.Evening" xml:space="preserve"><value>Evening chic</value></data>
+  <data name="Dining.Dress.Resort" xml:space="preserve"><value>Resort casual</value></data>
+  <data name="Dining.Dress.SmartCasual" xml:space="preserve"><value>Smart casual</value></data>
+  <data name="Dining.DressCode" xml:space="preserve"><value>Dress code</value></data>
+  <data name="Dining.Hours.AllDay" xml:space="preserve"><value>07:00 - 23:00</value></data>
+  <data name="Dining.Hours.Beach" xml:space="preserve"><value>10:00 - 00:00</value></data>
+  <data name="Dining.Hours.Rooftop" xml:space="preserve"><value>18:30 - 01:00</value></data>
+  <data name="Dining.Intro" xml:space="preserve"><value>Curated venues focused on local produce and seaside atmosphere.</value></data>
+  <data name="Dining.Solis.Short" xml:space="preserve"><value>Sunset cocktails, fire grill kitchen, and rooftop rhythm.</value></data>
+  <data name="Dining.Solis.Title" xml:space="preserve"><value>Solis Rooftop</value></data>
+  <data name="Dining.WorkingHours" xml:space="preserve"><value>Working hours</value></data>
+  <data name="Events.Form.Submit" xml:space="preserve"><value>Request proposal</value></data>
+  <data name="Events.Form.Success" xml:space="preserve"><value>Your request was received. Our events team will contact you soon.</value></data>
+  <data name="Events.Form.Title" xml:space="preserve"><value>Request proposal</value></data>
+  <data name="Events.Intro" xml:space="preserve"><value>Professional planning support for weddings and meetings.</value></data>
+  <data name="Events.Meetings.Description" xml:space="preserve"><value>Daylit meeting rooms with hybrid-ready technical setup.</value></data>
+  <data name="Events.Meetings.Title" xml:space="preserve"><value>Meetings</value></data>
+  <data name="Events.Weddings.Description" xml:space="preserve"><value>Seaside ceremonies with curated menus and custom styling.</value></data>
+  <data name="Events.Weddings.Title" xml:space="preserve"><value>Weddings</value></data>
+  <data name="Experiences.Beach.Description" xml:space="preserve"><value>Beach and pool spaces with a changing rhythm throughout the day.</value></data>
+  <data name="Experiences.Beach.Title" xml:space="preserve"><value>Beach and Pool</value></data>
+  <data name="Experiences.Intro" xml:space="preserve"><value>Premium experiences from Bodrum bays to active outdoor moments.</value></data>
+  <data name="Experiences.Sport.Description" xml:space="preserve"><value>Morning pilates, tennis, functional training, and open-air routes.</value></data>
+  <data name="Experiences.Sport.Title" xml:space="preserve"><value>Sport and Activity</value></data>
+  <data name="Experiences.WaterSports.Description" xml:space="preserve"><value>Paddle board, canoe, and selected water sports equipment.</value></data>
+  <data name="Experiences.WaterSports.Title" xml:space="preserve"><value>Water Sports</value></data>
+  <data name="Experiences.Yacht.Description" xml:space="preserve"><value>Half-day and full-day yacht packages.</value></data>
+  <data name="Experiences.Yacht.Title" xml:space="preserve"><value>Yacht Experience</value></data>
+  <data name="Feature.BeachService" xml:space="preserve"><value>Beach service</value></data>
+  <data name="Feature.BreakfastIncluded" xml:space="preserve"><value>Daily breakfast included</value></data>
+  <data name="Feature.Butler" xml:space="preserve"><value>Dedicated guest assistant</value></data>
+  <data name="Feature.CoupleMassage" xml:space="preserve"><value>Couple massage ritual</value></data>
+  <data name="Feature.CraftCocktail" xml:space="preserve"><value>Craft cocktail selection</value></data>
+  <data name="Feature.Discount20" xml:space="preserve"><value>20% discount advantage</value></data>
+  <data name="Feature.DJSunset" xml:space="preserve"><value>Sunset DJ sets</value></data>
+  <data name="Feature.DoubleVanity" xml:space="preserve"><value>Double vanity bathroom</value></data>
+  <data name="Feature.Espresso" xml:space="preserve"><value>In-room espresso setup</value></data>
+  <data name="Feature.FireGrill" xml:space="preserve"><value>Fire grill kitchen</value></data>
+  <data name="Feature.FlexibleDate" xml:space="preserve"><value>Flexible date change</value></data>
+  <data name="Feature.FreeTransfer" xml:space="preserve"><value>One-way airport transfer</value></data>
+  <data name="Feature.GardenAccess" xml:space="preserve"><value>Direct garden access</value></data>
+  <data name="Feature.LaundryCredit" xml:space="preserve"><value>Laundry credit</value></data>
+  <data name="Feature.LiveMusic" xml:space="preserve"><value>Live music nights</value></data>
+  <data name="Feature.PanoramicView" xml:space="preserve"><value>Panoramic Bodrum view</value></data>
+  <data name="Feature.PrivateBalcony" xml:space="preserve"><value>Private balcony</value></data>
+  <data name="Feature.PrivateDinner" xml:space="preserve"><value>Private beach dinner</value></data>
+  <data name="Feature.PrivatePool" xml:space="preserve"><value>Private pool</value></data>
+  <data name="Feature.RainShower" xml:space="preserve"><value>Rain shower system</value></data>
+  <data name="Feature.SeasonalLocal" xml:space="preserve"><value>Seasonal local ingredients</value></data>
+  <data name="Feature.SeaView" xml:space="preserve"><value>Sea view</value></data>
+  <data name="Feature.SmartTv" xml:space="preserve"><value>Smart TV and streaming</value></data>
+  <data name="Feature.Sommelier" xml:space="preserve"><value>Sommelier pairing</value></data>
+  <data name="Feature.SpaCredit" xml:space="preserve"><value>Spa credit</value></data>
+  <data name="Feature.SparklingWelcome" xml:space="preserve"><value>Sparkling welcome setup</value></data>
+  <data name="Feature.SuiteLiving" xml:space="preserve"><value>Separate living area</value></data>
+  <data name="Feature.SunsetDeck" xml:space="preserve"><value>Sunset deck</value></data>
+  <data name="Feature.TastingMenu" xml:space="preserve"><value>Tasting menu</value></data>
+  <data name="Feature.TwinOption" xml:space="preserve"><value>Twin setup option</value></data>
+  <data name="Footer.Cookies" xml:space="preserve"><value>Cookies Policy</value></data>
+  <data name="Footer.Follow" xml:space="preserve"><value>Follow us</value></data>
+  <data name="Footer.Kvkk" xml:space="preserve"><value>Personal Data</value></data>
+  <data name="Footer.Legal" xml:space="preserve"><value>Legal</value></data>
+  <data name="Footer.Privacy" xml:space="preserve"><value>Privacy Policy</value></data>
+  <data name="Footer.Rights" xml:space="preserve"><value>All rights reserved.</value></data>
+  <data name="Form.CrmNote" xml:space="preserve"><value>Note: submissions are currently logged to JSON files. Email/CRM integration is planned for production.</value></data>
+  <data name="Form.Date" xml:space="preserve"><value>Date</value></data>
+  <data name="Form.Email" xml:space="preserve"><value>Email</value></data>
+  <data name="Form.Message" xml:space="preserve"><value>Message</value></data>
+  <data name="Form.Name" xml:space="preserve"><value>Full name</value></data>
+  <data name="Form.Phone" xml:space="preserve"><value>Phone</value></data>
+  <data name="Form.Subject" xml:space="preserve"><value>Subject</value></data>
+  <data name="Gallery.Beach.Cabana.Short" xml:space="preserve"><value>Private cabana moments by the sea.</value></data>
+  <data name="Gallery.Beach.Cabana.Title" xml:space="preserve"><value>Cabana Areas</value></data>
+  <data name="Gallery.Beach.Sunset.Short" xml:space="preserve"><value>Coastal ambience from golden hour to night.</value></data>
+  <data name="Gallery.Beach.Sunset.Title" xml:space="preserve"><value>Sunset Beach</value></data>
+  <data name="Gallery.Category.Beach" xml:space="preserve"><value>Beach</value></data>
+  <data name="Gallery.Category.Dining" xml:space="preserve"><value>Dining</value></data>
+  <data name="Gallery.Category.Hotel" xml:space="preserve"><value>Hotel</value></data>
+  <data name="Gallery.Category.Rooms" xml:space="preserve"><value>Rooms</value></data>
+  <data name="Gallery.Category.Spa" xml:space="preserve"><value>Spa</value></data>
+  <data name="Gallery.Dining.Rooftop.Short" xml:space="preserve"><value>Rooftop evenings with city and sea skyline.</value></data>
+  <data name="Gallery.Dining.Rooftop.Title" xml:space="preserve"><value>Rooftop Experience</value></data>
+  <data name="Gallery.Dining.Signature.Short" xml:space="preserve"><value>Seasonal rhythm in an open-kitchen setting.</value></data>
+  <data name="Gallery.Dining.Signature.Title" xml:space="preserve"><value>Signature Dining</value></data>
+  <data name="Gallery.Hotel.Lobby.Short" xml:space="preserve"><value>Boutique luxury atmosphere in the lobby.</value></data>
+  <data name="Gallery.Hotel.Lobby.Title" xml:space="preserve"><value>Lobby</value></data>
+  <data name="Gallery.Hotel.Terrace.Short" xml:space="preserve"><value>Calm terrace opening to the sea.</value></data>
+  <data name="Gallery.Hotel.Terrace.Title" xml:space="preserve"><value>Sea Terrace</value></data>
+  <data name="Gallery.Intro" xml:space="preserve"><value>Curated visuals across hotel, rooms, dining, beach, and spa.</value></data>
+  <data name="Gallery.Room.Deluxe.Short" xml:space="preserve"><value>Premium room mood in natural tones.</value></data>
+  <data name="Gallery.Room.Deluxe.Title" xml:space="preserve"><value>Deluxe Interior</value></data>
+  <data name="Gallery.Room.Villa.Short" xml:space="preserve"><value>Private villa life with pool and generous terrace.</value></data>
+  <data name="Gallery.Room.Villa.Title" xml:space="preserve"><value>Private Villa</value></data>
+  <data name="Gallery.Spa.Ritual.Short" xml:space="preserve"><value>Ritual-led wellness moments.</value></data>
+  <data name="Gallery.Spa.Ritual.Title" xml:space="preserve"><value>Wellness Ritual</value></data>
+  <data name="Gallery.Spa.Suite.Short" xml:space="preserve"><value>Calming spa suites with soft acoustics.</value></data>
+  <data name="Gallery.Spa.Suite.Title" xml:space="preserve"><value>Spa Suite</value></data>
+  <data name="Gallery.Video.Title" xml:space="preserve"><value>Quatro Life showcase</value></data>
+  <data name="Home.Hero.Eyebrow" xml:space="preserve"><value>BODRUM / TURKIYE</value></data>
+  <data name="Home.Hero.ImageAlt" xml:space="preserve"><value>Quatro Life Gumbet seaside view</value></data>
+  <data name="Home.Hero.Subtitle" xml:space="preserve"><value>Sea-facing architecture, calm service rhythm, and boutique luxury.</value></data>
+  <data name="Home.Hero.Title" xml:space="preserve"><value>A premium Bodrum retreat</value></data>
+  <data name="Home.Quick.Accommodation" xml:space="preserve"><value>Balanced room, suite, and villa options</value></data>
+  <data name="Home.Quick.Dining" xml:space="preserve"><value>Local-produce dining and seaside venues</value></data>
+  <data name="Home.Quick.Experiences" xml:space="preserve"><value>Yacht trips, water sports, and beach moments</value></data>
+  <data name="Home.Quick.Offers" xml:space="preserve"><value>Seasonal booking advantages</value></data>
+  <data name="Home.Quick.Title" xml:space="preserve"><value>Quick discovery</value></data>
+  <data name="Home.Quick.Wellness" xml:space="preserve"><value>Spa, hamam, and fitness spaces</value></data>
+  <data name="Home.QuickContact.Description" xml:space="preserve"><value>Message or call us instantly for rapid support.</value></data>
+  <data name="Home.QuickContact.Title" xml:space="preserve"><value>Fast contact</value></data>
+  <data name="Legal.Cookies.Content" xml:space="preserve"><value>This page explains cookie categories, storage durations, and preference control. (Placeholder)</value></data>
+  <data name="Legal.Cookies.Title" xml:space="preserve"><value>Cookies Policy</value></data>
+  <data name="Legal.Kvkk.Content" xml:space="preserve"><value>This page explains personal data processing and your rights under Turkish data law. (Placeholder)</value></data>
+  <data name="Legal.Kvkk.Title" xml:space="preserve"><value>Personal Data Notice</value></data>
+  <data name="Legal.Privacy.Content" xml:space="preserve"><value>This page explains privacy principles and data security approach. (Placeholder)</value></data>
+  <data name="Legal.Privacy.Title" xml:space="preserve"><value>Privacy Policy</value></data>
+  <data name="Nav.Accommodation" xml:space="preserve"><value>Accommodation</value></data>
+  <data name="Nav.Contact" xml:space="preserve"><value>Contact</value></data>
+  <data name="Nav.Dining" xml:space="preserve"><value>Dining</value></data>
+  <data name="Nav.Events" xml:space="preserve"><value>Events</value></data>
+  <data name="Nav.Experiences" xml:space="preserve"><value>Experiences</value></data>
+  <data name="Nav.Gallery" xml:space="preserve"><value>Gallery</value></data>
+  <data name="Nav.Home" xml:space="preserve"><value>Home</value></data>
+  <data name="Nav.Offers" xml:space="preserve"><value>Offers</value></data>
+  <data name="Nav.Wellness" xml:space="preserve"><value>Wellness</value></data>
+  <data name="Offer.EarlyBooking.Short" xml:space="preserve"><value>Special advantages for guests planning in advance.</value></data>
+  <data name="Offer.EarlyBooking.Title" xml:space="preserve"><value>Early Booking</value></data>
+  <data name="Offer.EarlyBooking.Validity" xml:space="preserve"><value>Valid until 31 August 2026.</value></data>
+  <data name="Offer.Honeymoon.Short" xml:space="preserve"><value>Romantic details designed for memorable escapes.</value></data>
+  <data name="Offer.Honeymoon.Title" xml:space="preserve"><value>Honeymoon Escape</value></data>
+  <data name="Offer.Honeymoon.Validity" xml:space="preserve"><value>Valid all season for newlyweds.</value></data>
+  <data name="Offer.LongStay.Short" xml:space="preserve"><value>More service value for longer stays.</value></data>
+  <data name="Offer.LongStay.Title" xml:space="preserve"><value>Long Stay</value></data>
+  <data name="Offer.LongStay.Validity" xml:space="preserve"><value>Available for minimum 5-night stays.</value></data>
+  <data name="Offers.Intro" xml:space="preserve"><value>Selected packages by season and length of stay.</value></data>
+  <data name="Reservation.ConfiguredMessage" xml:space="preserve"><value>Booking integration is active. You can continue to the availability page.</value></data>
+  <data name="Reservation.ContactFallback" xml:space="preserve"><value>Until then, our team can assist your reservation manually.</value></data>
+  <data name="Reservation.NotConnected" xml:space="preserve"><value>Booking infrastructure is not connected yet.</value></data>
+  <data name="Reservation.Title" xml:space="preserve"><value>Reservation</value></data>
+  <data name="Room.Deluxe.Short" xml:space="preserve"><value>Sea-facing premium room with clean and airy layout.</value></data>
+  <data name="Room.Deluxe.Title" xml:space="preserve"><value>Deluxe Room</value></data>
+  <data name="Room.GardenFamily.Short" xml:space="preserve"><value>Spacious family layout with direct garden access.</value></data>
+  <data name="Room.GardenFamily.Title" xml:space="preserve"><value>Garden Family Room</value></data>
+  <data name="Room.LagoonSuite.Short" xml:space="preserve"><value>Expanded suite planning with marina views.</value></data>
+  <data name="Room.LagoonSuite.Title" xml:space="preserve"><value>Lagoon Suite</value></data>
+  <data name="Room.PremiumVilla.Short" xml:space="preserve"><value>Private-pool villa with high privacy and broad deck.</value></data>
+  <data name="Room.PremiumVilla.Title" xml:space="preserve"><value>Premium Villa</value></data>
+  <data name="Season.Message.Summer2026" xml:space="preserve"><value>Summer 2026: complimentary transfer on selected dates.</value></data>
+  <data name="Seo.Accommodation.Description" xml:space="preserve"><value>Premium room, suite, and villa options in Bodrum.</value></data>
+  <data name="Seo.Accommodation.Title" xml:space="preserve"><value>Accommodation</value></data>
+  <data name="Seo.Book.Description" xml:space="preserve"><value>Booking fallback and availability routing details.</value></data>
+  <data name="Seo.Book.Title" xml:space="preserve"><value>Reservation</value></data>
+  <data name="Seo.Contact.Description" xml:space="preserve"><value>Address, transport, transfer info, and contact form.</value></data>
+  <data name="Seo.Contact.Title" xml:space="preserve"><value>Location and Contact</value></data>
+  <data name="Seo.Cookies.Description" xml:space="preserve"><value>Cookie usage and preference management.</value></data>
+  <data name="Seo.Cookies.Title" xml:space="preserve"><value>Cookies Policy</value></data>
+  <data name="Seo.Default.Description" xml:space="preserve"><value>Premium boutique hotel experience in Bodrum.</value></data>
+  <data name="Seo.Dining.Description" xml:space="preserve"><value>Dining venues, service hours, and concept details.</value></data>
+  <data name="Seo.Dining.Title" xml:space="preserve"><value>Dining</value></data>
+  <data name="Seo.Events.Description" xml:space="preserve"><value>Wedding and meeting requests with proposal form.</value></data>
+  <data name="Seo.Events.Title" xml:space="preserve"><value>Events</value></data>
+  <data name="Seo.Experiences.Description" xml:space="preserve"><value>Beach, water sports, yacht trips, and activities.</value></data>
+  <data name="Seo.Experiences.Title" xml:space="preserve"><value>Experiences</value></data>
+  <data name="Seo.Gallery.Description" xml:space="preserve"><value>Curated gallery for hotel, rooms, dining, beach, and spa.</value></data>
+  <data name="Seo.Gallery.Title" xml:space="preserve"><value>Gallery</value></data>
+  <data name="Seo.Home.Description" xml:space="preserve"><value>Boutique luxury hotel in Bodrum focused on direct booking and clear concept.</value></data>
+  <data name="Seo.Home.Title" xml:space="preserve"><value>Home</value></data>
+  <data name="Seo.Kvkk.Description" xml:space="preserve"><value>Personal data notice and processing information.</value></data>
+  <data name="Seo.Kvkk.Title" xml:space="preserve"><value>Personal Data</value></data>
+  <data name="Seo.Offers.Description" xml:space="preserve"><value>Early booking, long stay, and honeymoon packages.</value></data>
+  <data name="Seo.Offers.Title" xml:space="preserve"><value>Offers</value></data>
+  <data name="Seo.Privacy.Description" xml:space="preserve"><value>Privacy and data security approach.</value></data>
+  <data name="Seo.Privacy.Title" xml:space="preserve"><value>Privacy Policy</value></data>
+  <data name="Seo.Tour.Description" xml:space="preserve"><value>Virtual tour page prepared for phase 2.</value></data>
+  <data name="Seo.Tour.Title" xml:space="preserve"><value>Virtual Tour</value></data>
+  <data name="Seo.Wellness.Description" xml:space="preserve"><value>Spa, hamam, fitness, and appointment CTA details.</value></data>
+  <data name="Seo.Wellness.Title" xml:space="preserve"><value>Wellness</value></data>
+  <data name="Tour.Description" xml:space="preserve"><value>Virtual tour infrastructure is prepared for phase 2 and will be activated soon.</value></data>
+  <data name="Tour.Title" xml:space="preserve"><value>Virtual Tour</value></data>
+  <data name="Upsell.Cabana" xml:space="preserve"><value>Cabana</value></data>
+  <data name="Upsell.DayPass" xml:space="preserve"><value>Day-pass</value></data>
+  <data name="Upsell.Title" xml:space="preserve"><value>Add-on experiences</value></data>
+  <data name="Upsell.Transfer" xml:space="preserve"><value>Transfer</value></data>
+  <data name="Validation.Email" xml:space="preserve"><value>Please enter a valid email address.</value></data>
+  <data name="Validation.Phone" xml:space="preserve"><value>Please enter a valid phone number.</value></data>
+  <data name="Validation.Required" xml:space="preserve"><value>This field is required.</value></data>
+  <data name="Validation.StringLength" xml:space="preserve"><value>Input length is not valid.</value></data>
+  <data name="View.garden" xml:space="preserve"><value>Garden</value></data>
+  <data name="View.marina" xml:space="preserve"><value>Marina</value></data>
+  <data name="View.sea" xml:space="preserve"><value>Sea</value></data>
+  <data name="Wellness.BookAppointment" xml:space="preserve"><value>Request appointment</value></data>
+  <data name="Wellness.Fitness.Description" xml:space="preserve"><value>Modern equipment and private training options.</value></data>
+  <data name="Wellness.Fitness.Title" xml:space="preserve"><value>Fitness</value></data>
+  <data name="Wellness.Hamam.Description" xml:space="preserve"><value>Traditional ritual blended with modern therapy.</value></data>
+  <data name="Wellness.Hamam.Title" xml:space="preserve"><value>Hamam</value></data>
+  <data name="Wellness.Intro" xml:space="preserve"><value>Wellness spaces designed for body and mind balance.</value></data>
+  <data name="Wellness.Spa.Description" xml:space="preserve"><value>Aromatherapy, massage, and personalized care programs.</value></data>
+  <data name="Wellness.Spa.Title" xml:space="preserve"><value>Spa</value></data>
+</root>
+

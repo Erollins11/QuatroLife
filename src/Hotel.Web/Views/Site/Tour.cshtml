@@ -1,0 +1,16 @@
+﻿@model StandardPageViewModel
+@inject IStringLocalizer<SharedResource> Localizer
+
+<section class="page-hero compact py-5 bg-light" aria-labelledby="tour-title">
+    <div class="container">
+        <h1 id="tour-title">@Localizer["Tour.Title"]</h1>
+        <p class="lead mb-0">@Localizer["Tour.Description"]</p>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <img src="~/img/hotel/experience-yacht.jpg" width="1200" height="600" alt="@Localizer["Tour.Title"]" class="img-fluid rounded-4" loading="lazy" />
+        <p class="mt-3 mb-0">@Localizer["Common.ComingSoon"]</p>
+    </div>
+</section>

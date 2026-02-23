@@ -1,0 +1,35 @@
+﻿@model OfferDetailPageViewModel
+@inject IStringLocalizer<SharedResource> Localizer
+@inject ILanguageRouteService Routes
+
+<section class="page-hero compact py-5 bg-light" aria-labelledby="offer-title">
+    <div class="container">
+        <a href="@Routes.PathFor(Model.Page.Culture, "teklifler")" class="small link-dark">@Localizer["Common.BackToList"]</a>
+        <h1 id="offer-title" class="mt-2">@Localizer[Model.Offer.TitleKey]</h1>
+        <p class="lead mb-0">@Localizer[Model.Offer.ShortDescriptionKey]</p>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-7">
+                <img src="@Model.Offer.Images.FirstOrDefault()" class="img-fluid rounded-4 shadow-sm" width="1200" height="720" alt="@Localizer[Model.Offer.TitleKey]" loading="lazy" />
+            </div>
+            <div class="col-lg-5">
+                <article class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <p class="text-muted">@Localizer[Model.Offer.ValidityKey]</p>
+                        <ul class="feature-list mb-4">
+                            @foreach (var feature in Model.Offer.FeaturesKeys)
+                            {
+                                <li>@Localizer[feature]</li>
+                            }
+                        </ul>
+                        <a href="@Model.Page.BookingUrl" class="btn btn-gold w-100">@Localizer["Common.CheckAvailability"]</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>

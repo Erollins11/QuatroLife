@@ -1,0 +1,54 @@
+﻿[
+  {
+    "slug": "deluxe-room",
+    "titleKey": "Room.Deluxe.Title",
+    "shortDescriptionKey": "Room.Deluxe.Short",
+    "featuresKeys": ["Feature.SeaView", "Feature.PrivateBalcony", "Feature.SmartTv"],
+    "images": ["/img/hotel/room-deluxe.jpg"],
+    "capacity": 2,
+    "sizeSqm": 34,
+    "bedType": "king",
+    "viewType": "sea",
+    "isVilla": false,
+    "hasPrivatePool": false
+  },
+  {
+    "slug": "lagoon-suite",
+    "titleKey": "Room.LagoonSuite.Title",
+    "shortDescriptionKey": "Room.LagoonSuite.Short",
+    "featuresKeys": ["Feature.SuiteLiving", "Feature.RainShower", "Feature.Espresso"],
+    "images": ["/img/hotel/room-lagoon-suite.jpg"],
+    "capacity": 3,
+    "sizeSqm": 48,
+    "bedType": "king",
+    "viewType": "marina",
+    "isVilla": false,
+    "hasPrivatePool": false
+  },
+  {
+    "slug": "garden-family",
+    "titleKey": "Room.GardenFamily.Title",
+    "shortDescriptionKey": "Room.GardenFamily.Short",
+    "featuresKeys": ["Feature.GardenAccess", "Feature.TwinOption", "Feature.DoubleVanity"],
+    "images": ["/img/hotel/room-garden-family.jpg"],
+    "capacity": 4,
+    "sizeSqm": 56,
+    "bedType": "twin",
+    "viewType": "garden",
+    "isVilla": false,
+    "hasPrivatePool": false
+  },
+  {
+    "slug": "premium-villa",
+    "titleKey": "Room.PremiumVilla.Title",
+    "shortDescriptionKey": "Room.PremiumVilla.Short",
+    "featuresKeys": ["Feature.PrivatePool", "Feature.Butler", "Feature.SunsetDeck"],
+    "images": ["/img/hotel/room-premium-villa.jpg"],
+    "capacity": 4,
+    "sizeSqm": 88,
+    "bedType": "queen",
+    "viewType": "sea",
+    "isVilla": true,
+    "hasPrivatePool": true
+  }
+]

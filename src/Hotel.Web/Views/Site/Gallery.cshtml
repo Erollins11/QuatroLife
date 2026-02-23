@@ -1,0 +1,41 @@
+﻿@model GalleryPageViewModel
+@inject IStringLocalizer<SharedResource> Localizer
+
+<section class="page-hero compact py-5 bg-light" aria-labelledby="gallery-title">
+    <div class="container">
+        <h1 id="gallery-title">@Localizer["Nav.Gallery"]</h1>
+        <p class="lead mb-0">@Localizer["Gallery.Intro"]</p>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <div class="d-flex flex-wrap gap-2 mb-4" data-gallery-filters>
+            <button type="button" class="btn btn-outline-dark btn-sm active" data-gallery-filter="all">@Localizer["Common.All"]</button>
+            @foreach (var category in Model.Categories)
+            {
+                <button type="button" class="btn btn-outline-dark btn-sm" data-gallery-filter="@category">@Localizer[$"Gallery.Category.{category}"]</button>
+            }
+        </div>
+
+        <div class="row g-3" data-gallery-grid>
+            @foreach (var item in Model.Items)
+            {
+                <div class="col-sm-6 col-lg-4" data-gallery-item data-category="@item.Category">
+                    <article class="card border-0 shadow-sm h-100">
+                        <img src="@item.Image" width="640" height="360" alt="@Localizer[item.TitleKey]" loading="lazy" class="card-img-top" />
+                        <div class="card-body">
+                            <h2 class="h6">@Localizer[item.TitleKey]</h2>
+                            <p class="small text-muted mb-0">@Localizer[item.ShortDescriptionKey]</p>
+                        </div>
+                    </article>
+                </div>
+            }
+        </div>
+
+        <div class="video-placeholder mt-5">
+            <h2 class="h5">@Localizer["Gallery.Video.Title"]</h2>
+            <img src="~/img/hotel/experience-yacht.jpg" width="1200" height="500" alt="@Localizer["Gallery.Video.Title"]" loading="lazy" class="img-fluid rounded-4" />
+        </div>
+    </div>
+</section>

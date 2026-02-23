@@ -1,0 +1,76 @@
+﻿@model ContactPageViewModel
+@inject IConfiguration Configuration
+@inject IStringLocalizer<SharedResource> Localizer
+
+@{
+    var phone = Configuration["Contact:Phone"] ?? "+90 252 000 00 00";
+    var whatsAppRaw = (Configuration["Contact:WhatsApp"] ?? "+90 555 000 00 00").Replace(" ", string.Empty).Replace("+", string.Empty);
+    var whatsAppLink = $"https://wa.me/{whatsAppRaw}";
+    var email = Configuration["Contact:Email"] ?? "hello@quatrolife.com";
+    var address = Configuration["Contact:Address"] ?? "Gumbet, Bodrum, Mugla";
+}
+
+<section class="page-hero compact py-5 bg-light" aria-labelledby="contact-title">
+    <div class="container">
+        <h1 id="contact-title">@Localizer["Nav.Contact"]</h1>
+        <p class="lead mb-0">@Localizer["Contact.Intro"]</p>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <article class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <h2 class="h5">@Localizer["Contact.AddressTitle"]</h2>
+                        <p>@address</p>
+                        <p class="mb-1"><a href="tel:@phone">@phone</a></p>
+                        <p><a href="mailto:@email">@email</a></p>
+                        <p><a href="@whatsAppLink" target="_blank" rel="noopener noreferrer">@Localizer["Common.WhatsApp"]</a></p>
+                        <img src="~/img/hotel/contact-location.jpg" width="900" height="450" class="img-fluid rounded-4" alt="@Localizer["Contact.MapAlt"]" loading="lazy" />
+                        <p class="small text-muted mt-3 mb-0">@Localizer["Contact.TransferInfo"]</p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-6">
+                <article class="form-shell h-100" aria-labelledby="contact-form-title">
+                    <h2 id="contact-form-title" class="h4">@Localizer["Contact.Form.Title"]</h2>
+
+                    @if (Model.IsSubmitted)
+                    {
+                        <div class="alert alert-success" role="status">@Localizer["Contact.Form.Success"]</div>
+                    }
+
+                    <form asp-action="SubmitContactInquiry" asp-controller="Site" asp-route-culture="@Model.Page.Culture" method="post" novalidate>
+                        @Html.AntiForgeryToken()
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>
+                        <div class="mb-3">
+                            <label asp-for="Form.Name" class="form-label">@Localizer["Form.Name"]</label>
+                            <input asp-for="Form.Name" class="form-control" aria-required="true" />
+                            <span asp-validation-for="Form.Name" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Form.Email" class="form-label">@Localizer["Form.Email"]</label>
+                            <input asp-for="Form.Email" class="form-control" aria-required="true" />
+                            <span asp-validation-for="Form.Email" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Form.Subject" class="form-label">@Localizer["Form.Subject"]</label>
+                            <input asp-for="Form.Subject" class="form-control" aria-required="true" />
+                            <span asp-validation-for="Form.Subject" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Form.Message" class="form-label">@Localizer["Form.Message"]</label>
+                            <textarea asp-for="Form.Message" class="form-control" rows="5" aria-required="true"></textarea>
+                            <span asp-validation-for="Form.Message" class="text-danger"></span>
+                        </div>
+                        <button class="btn btn-gold" type="submit">@Localizer["Contact.Form.Submit"]</button>
+                    </form>
+
+                    <p class="small text-muted mt-3 mb-0">@Localizer["Form.CrmNote"]</p>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>

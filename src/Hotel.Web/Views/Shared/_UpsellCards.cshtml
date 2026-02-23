@@ -1,0 +1,33 @@
+﻿@inject IStringLocalizer<SharedResource> Localizer
+
+<section class="upsell-section py-5" aria-labelledby="upsell-title">
+    <div class="container">
+        <h2 id="upsell-title" class="h3 mb-4">@Localizer["Upsell.Title"]</h2>
+        <div class="row g-3">
+            <div class="col-md-4">
+                <article class="card h-100 border-0 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="h5">@Localizer["Upsell.Cabana"]</h3>
+                        <p class="mb-0">@Localizer["Common.ComingSoon"]</p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-4">
+                <article class="card h-100 border-0 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="h5">@Localizer["Upsell.DayPass"]</h3>
+                        <p class="mb-0">@Localizer["Common.ComingSoon"]</p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-4">
+                <article class="card h-100 border-0 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="h5">@Localizer["Upsell.Transfer"]</h3>
+                        <p class="mb-0">@Localizer["Common.ComingSoon"]</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,222 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap');
+
+:root {
+    --bg: #f7f4ef;
+    --ink: #1a1f2a;
+    --muted: #5f6472;
+    --gold: #af8f53;
+    --gold-dark: #8f723e;
+    --sand: #ece5da;
+    --panel: #ffffff;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle at top right, #faf4e8 0%, var(--bg) 38%, #f3eee3 100%);
+    color: var(--ink);
+    font-family: 'Manrope', 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3, h4, h5, .navbar-brand {
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: 0.01em;
+}
+
+a {
+    color: #1d3252;
+}
+
+a:hover {
+    color: #122237;
+}
+
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: 9999;
+}
+
+.skip-link:focus {
+    left: 1rem;
+    top: 1rem;
+    width: auto;
+    height: auto;
+    padding: 0.5rem 0.75rem;
+    background: #000;
+    color: #fff;
+    border-radius: 0.25rem;
+}
+
+.site-header .navbar {
+    backdrop-filter: blur(8px);
+    background: rgba(255, 255, 255, 0.96) !important;
+}
+
+.brand-logo {
+    width: 120px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.brand-name {
+    font-size: 1.1rem;
+}
+
+.footer-logo {
+    width: 110px;
+    height: 36px;
+    object-fit: contain;
+}
+
+.btn-gold {
+    background: linear-gradient(120deg, var(--gold) 0%, #d4b980 100%);
+    color: #1e1e1e;
+    border: 0;
+}
+
+.btn-gold:hover,
+.btn-gold:focus {
+    background: linear-gradient(120deg, var(--gold-dark) 0%, #be9a5d 100%);
+    color: #fff;
+}
+
+.hero-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    min-height: 420px;
+    object-fit: cover;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(100deg, rgba(12, 17, 25, 0.72) 0%, rgba(12, 17, 25, 0.2) 55%, rgba(12, 17, 25, 0.08) 100%);
+    color: #fff;
+}
+
+.eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-weight: 600;
+    font-size: 0.78rem;
+    margin-bottom: 0.6rem;
+}
+
+.page-hero.compact {
+    border-bottom: 1px solid #e5dccf;
+}
+
+.card,
+.form-shell,
+.filter-panel,
+.feature-block {
+    background: var(--panel);
+    border-radius: 1rem;
+    padding: 0;
+}
+
+.form-shell,
+.filter-panel,
+.feature-block {
+    padding: 1.25rem;
+}
+
+.concept-band {
+    background: linear-gradient(135deg, #18212f 0%, #26344a 50%, #1d2a3d 100%);
+    color: #f9f4eb;
+}
+
+.feature-list {
+    padding-left: 1.2rem;
+    margin: 0;
+}
+
+.feature-list li {
+    margin-bottom: 0.25rem;
+}
+
+.season-banner {
+    background: #2a3e5d;
+    color: #f8f2e8;
+    font-size: 0.95rem;
+}
+
+.upsell-section {
+    background: linear-gradient(180deg, transparent 0%, #ede4d7 100%);
+}
+
+.site-footer {
+    background: #151b27;
+    color: #f3efe7;
+}
+
+.site-footer a {
+    color: #f7e3b7;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    color: #fff;
+}
+
+.cookie-banner {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    max-width: 340px;
+    background: #161f2f;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.25);
+    z-index: 1050;
+}
+
+.video-placeholder {
+    background: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.main-content {
+    min-height: 60vh;
+}
+
+@media (max-width: 991.98px) {
+    .hero-image {
+        min-height: 500px;
+    }
+
+    .hero-overlay .display-4 {
+        font-size: 2.1rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .brand-name {
+        display: none;
+    }
+
+    .form-shell,
+    .filter-panel,
+    .feature-block {
+        padding: 1rem;
+    }
+
+    .cookie-banner {
+        left: 1rem;
+        right: 1rem;
+        max-width: unset;
+    }
+}

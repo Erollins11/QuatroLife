@@ -1,0 +1,9 @@
+﻿@model StandardPageViewModel
+@inject IStringLocalizer<SharedResource> Localizer
+
+<section class="legal-page py-5" aria-labelledby="cookies-title">
+    <div class="container">
+        <h1 id="cookies-title">@Localizer["Legal.Cookies.Title"]</h1>
+        <p>@Localizer["Legal.Cookies.Content"]</p>
+    </div>
+</section>

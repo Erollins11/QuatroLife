@@ -1,0 +1,23 @@
+﻿@model ReservationPageViewModel
+@inject IStringLocalizer<SharedResource> Localizer
+
+<section class="page-hero compact py-5 bg-light" aria-labelledby="reservation-title">
+    <div class="container">
+        <h1 id="reservation-title">@Localizer["Reservation.Title"]</h1>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        @if (Model.BookingConfigured)
+        {
+            <div class="alert alert-info" role="status">@Localizer["Reservation.ConfiguredMessage"]</div>
+            <a class="btn btn-gold" href="@Model.Page.BookingUrl">@Localizer["Common.CheckAvailability"]</a>
+        }
+        else
+        {
+            <div class="alert alert-warning" role="alert">@Localizer["Reservation.NotConnected"]</div>
+            <p>@Localizer["Reservation.ContactFallback"]</p>
+        }
+    </div>
+</section>

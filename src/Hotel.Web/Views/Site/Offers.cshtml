@@ -1,0 +1,30 @@
+﻿@model OffersPageViewModel
+@inject IStringLocalizer<SharedResource> Localizer
+
+<section class="page-hero compact py-5 bg-light" aria-labelledby="offers-title">
+    <div class="container">
+        <h1 id="offers-title">@Localizer["Nav.Offers"]</h1>
+        <p class="lead mb-0">@Localizer["Offers.Intro"]</p>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row g-4">
+            @foreach (var offer in Model.Offers)
+            {
+                <div class="col-md-6 col-lg-4">
+                    <article class="card h-100 border-0 shadow-sm">
+                        <img src="@offer.Images.FirstOrDefault()" width="640" height="360" alt="@Localizer[offer.TitleKey]" loading="lazy" class="card-img-top" />
+                        <div class="card-body d-flex flex-column">
+                            <h2 class="h5">@Localizer[offer.TitleKey]</h2>
+                            <p>@Localizer[offer.ShortDescriptionKey]</p>
+                            <p class="small text-muted">@Localizer[offer.ValidityKey]</p>
+                            <a href="@Url.Action("OfferDetail", "Site", new { culture = Model.Page.Culture, slug = offer.Slug })" class="btn btn-outline-dark mt-auto">@Localizer["Common.Details"]</a>
+                        </div>
+                    </article>
+                </div>
+            }
+        </div>
+    </div>
+</section>

@@ -1,0 +1,62 @@
+﻿@model HomePageViewModel
+@inject IConfiguration Configuration
+@inject IStringLocalizer<SharedResource> Localizer
+
+@{
+    var phone = Configuration["Contact:Phone"] ?? "+90 252 000 00 00";
+    var whatsAppRaw = (Configuration["Contact:WhatsApp"] ?? "+90 555 000 00 00").Replace(" ", string.Empty).Replace("+", string.Empty);
+    var whatsAppLink = $"https://wa.me/{whatsAppRaw}";
+}
+
+<section class="hero-section" aria-labelledby="hero-title">
+    <img src="~/img/hotel/home-hero.jpg" class="hero-image" width="1600" height="840" alt="@Localizer["Home.Hero.ImageAlt"]" loading="eager" />
+    <div class="hero-overlay">
+        <div class="container">
+            <p class="eyebrow">@Localizer["Home.Hero.Eyebrow"]</p>
+            <h1 id="hero-title" class="display-4">@Localizer["Home.Hero.Title"]</h1>
+            <p class="lead">@Localizer["Home.Hero.Subtitle"]</p>
+            <a class="btn btn-gold btn-lg" href="@Model.Page.BookingUrl">@Localizer["Common.CheckAvailability"]</a>
+        </div>
+    </div>
+</section>
+
+<section class="py-5" aria-labelledby="quick-links-title">
+    <div class="container">
+        <h2 id="quick-links-title" class="h3 mb-4">@Localizer["Home.Quick.Title"]</h2>
+        <div class="row g-4">
+            @foreach (var item in Model.QuickLinks)
+            {
+                <div class="col-md-6 col-lg-4">
+                    <article class="card h-100 border-0 shadow-sm">
+                        <img src="@item.Image" class="card-img-top" width="640" height="360" alt="@Localizer[item.TitleKey]" loading="lazy" />
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="h5">@Localizer[item.TitleKey]</h3>
+                            <p class="text-muted">@Localizer[item.DescriptionKey]</p>
+                            <a class="stretched-link link-dark fw-semibold mt-auto" href="@item.Url">@Localizer["Common.ReadMore"]</a>
+                        </div>
+                    </article>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="concept-band py-5" aria-labelledby="concept-title">
+    <div class="container">
+        <h2 id="concept-title" class="h3">@Localizer["Concept.Title"]</h2>
+        <p class="mb-0">@Localizer["Concept.Description"]</p>
+    </div>
+</section>
+
+<section class="py-5" aria-labelledby="contact-quick-title">
+    <div class="container">
+        <h2 id="contact-quick-title" class="h3">@Localizer["Home.QuickContact.Title"]</h2>
+        <p class="text-muted">@Localizer["Home.QuickContact.Description"]</p>
+        <div class="d-flex flex-wrap gap-2">
+            <a href="@whatsAppLink" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark">@Localizer["Common.WhatsApp"]</a>
+            <a href="tel:@phone" class="btn btn-dark">@Localizer["Common.Call"]</a>
+        </div>
+    </div>
+</section>
+
+<partial name="_UpsellCards" />

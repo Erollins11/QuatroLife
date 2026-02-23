@@ -1,0 +1,12 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 630' role='img' aria-label='Quatro Life Open Graph'>
+  <defs>
+    <linearGradient id='og' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' stop-color='#17283d'/>
+      <stop offset='100%' stop-color='#8f7648'/>
+    </linearGradient>
+  </defs>
+  <rect width='1200' height='630' fill='url(#og)'/>
+  <text x='80' y='320' fill='white' font-family='Georgia, serif' font-size='86'>Quatro Life</text>
+  <text x='82' y='390' fill='rgba(255,255,255,0.85)' font-family='Segoe UI, sans-serif' font-size='36'>Premium Bodrum Hotel</text>
+</svg>
+

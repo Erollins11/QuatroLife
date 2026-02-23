@@ -1,0 +1,40 @@
+﻿@model DiningDetailPageViewModel
+@inject IStringLocalizer<SharedResource> Localizer
+@inject ILanguageRouteService Routes
+
+<section class="page-hero compact py-5 bg-light" aria-labelledby="restaurant-title">
+    <div class="container">
+        <a href="@Routes.PathFor(Model.Page.Culture, "yeme-icme")" class="small link-dark">@Localizer["Common.BackToList"]</a>
+        <h1 id="restaurant-title" class="mt-2">@Localizer[Model.Restaurant.TitleKey]</h1>
+        <p class="lead mb-0">@Localizer[Model.Restaurant.ShortDescriptionKey]</p>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row g-4 align-items-start">
+            <div class="col-lg-8">
+                <img src="@Model.Restaurant.Images.FirstOrDefault()" class="img-fluid rounded-4 shadow-sm" width="1200" height="720" alt="@Localizer[Model.Restaurant.TitleKey]" loading="lazy" />
+            </div>
+            <div class="col-lg-4">
+                <article class="card border-0 shadow-sm">
+                    <div class="card-body">
+                        <p><strong>@Localizer["Dining.WorkingHours"]:</strong> @Localizer[Model.Restaurant.WorkingHoursKey]</p>
+                        @if (!string.IsNullOrWhiteSpace(Model.Restaurant.DressCodeKey))
+                        {
+                            <p><strong>@Localizer["Dining.DressCode"]:</strong> @Localizer[Model.Restaurant.DressCodeKey]</p>
+                        }
+                        <h2 class="h6">@Localizer["Dining.Concept"]</h2>
+                        <ul class="feature-list mb-4">
+                            @foreach (var feature in Model.Restaurant.FeaturesKeys)
+                            {
+                                <li>@Localizer[feature]</li>
+                            }
+                        </ul>
+                        <a href="@Model.Page.BookingUrl" class="btn btn-gold w-100">@Localizer["Common.BookNow"]</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>

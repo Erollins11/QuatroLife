@@ -1,0 +1,12 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900' role='img' aria-label='Spa'>
+  <defs>
+    <linearGradient id='g' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' stop-color='#61465d'/>
+      <stop offset='100%' stop-color='#d2a9c8'/>
+    </linearGradient>
+  </defs>
+  <rect width='1600' height='900' fill='url(#g)'/>
+  <circle cx='1280' cy='180' r='190' fill='rgba(255,255,255,0.12)'/>
+  <circle cx='250' cy='740' r='240' fill='rgba(255,255,255,0.08)'/>
+  <text x='110' y='760' fill='rgba(255,255,255,0.9)' font-family='Georgia, serif' font-size='88'>Spa</text>
+</svg>
