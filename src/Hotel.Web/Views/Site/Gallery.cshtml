@@ -22,11 +22,14 @@
             @foreach (var item in Model.Items)
             {
                 <div class="col-sm-6 col-lg-4" data-gallery-item data-category="@item.Category">
-                    <article class="card border-0 shadow-sm h-100">
-                        <img src="@item.Image" width="640" height="360" alt="@Localizer[item.TitleKey]" loading="lazy" class="card-img-top" />
-                        <div class="card-body">
-                            <h2 class="h6">@Localizer[item.TitleKey]</h2>
-                            <p class="small text-muted mb-0">@Localizer[item.ShortDescriptionKey]</p>
+                    <article class="liquid-card h-100">
+                        <div class="liquid-media">
+                            <img src="@item.Image" width="640" height="360" alt="@Localizer[item.TitleKey]" loading="lazy" class="card-img-top" />
+                        </div>
+                        <div class="liquid-body">
+                            <h2 class="liquid-title display-font h6">@Localizer[item.TitleKey]</h2>
+                            <div class="liquid-rule"></div>
+                            <p class="liquid-desc small mb-0">@Localizer[item.ShortDescriptionKey]</p>
                         </div>
                     </article>
                 </div>
@@ -39,3 +42,4 @@
         </div>
     </div>
 </section>
+

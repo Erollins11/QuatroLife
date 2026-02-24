@@ -1,4 +1,5 @@
-﻿@model HomePageViewModel
+﻿@using System.Text.Json
+@model HomePageViewModel
 @inject IConfiguration Configuration
 @inject IStringLocalizer<SharedResource> Localizer
 
@@ -6,33 +7,122 @@
     var phone = Configuration["Contact:Phone"] ?? "+90 252 000 00 00";
     var whatsAppRaw = (Configuration["Contact:WhatsApp"] ?? "+90 555 000 00 00").Replace(" ", string.Empty).Replace("+", string.Empty);
     var whatsAppLink = $"https://wa.me/{whatsAppRaw}";
+    var reviews = new[]
+    {
+        new { QuoteKey = "Home.Reviews.Item1.Quote", NameKey = "Home.Reviews.Item1.Name", MetaKey = "Home.Reviews.Item1.Meta", ScoreKey = "Home.Reviews.Item1.Score" },
+        new { QuoteKey = "Home.Reviews.Item2.Quote", NameKey = "Home.Reviews.Item2.Name", MetaKey = "Home.Reviews.Item2.Meta", ScoreKey = "Home.Reviews.Item2.Score" },
+        new { QuoteKey = "Home.Reviews.Item3.Quote", NameKey = "Home.Reviews.Item3.Name", MetaKey = "Home.Reviews.Item3.Meta", ScoreKey = "Home.Reviews.Item3.Score" }
+    };
+    var faqItems = new[]
+    {
+        new { QuestionKey = "Home.Faq.Item1.Question", AnswerKey = "Home.Faq.Item1.Answer" },
+        new { QuestionKey = "Home.Faq.Item2.Question", AnswerKey = "Home.Faq.Item2.Answer" },
+        new { QuestionKey = "Home.Faq.Item3.Question", AnswerKey = "Home.Faq.Item3.Answer" },
+        new { QuestionKey = "Home.Faq.Item4.Question", AnswerKey = "Home.Faq.Item4.Answer" },
+        new { QuestionKey = "Home.Faq.Item5.Question", AnswerKey = "Home.Faq.Item5.Answer" }
+    };
+    var guideItems = new[]
+    {
+        new { TitleKey = "Home.Guide.Item1.Title", DescriptionKey = "Home.Guide.Item1.Description", MetaKey = "Home.Guide.Item1.Meta" },
+        new { TitleKey = "Home.Guide.Item2.Title", DescriptionKey = "Home.Guide.Item2.Description", MetaKey = "Home.Guide.Item2.Meta" },
+        new { TitleKey = "Home.Guide.Item3.Title", DescriptionKey = "Home.Guide.Item3.Description", MetaKey = "Home.Guide.Item3.Meta" },
+        new { TitleKey = "Home.Guide.Item4.Title", DescriptionKey = "Home.Guide.Item4.Description", MetaKey = "Home.Guide.Item4.Meta" }
+    };
+
+    var faqJsonLd = new Dictionary<string, object?>
+    {
+        ["@context"] = "https://schema.org",
+        ["@type"] = "FAQPage",
+        ["mainEntity"] = faqItems.Select(item => new Dictionary<string, object?>
+        {
+            ["@type"] = "Question",
+            ["name"] = Localizer[item.QuestionKey].Value,
+            ["acceptedAnswer"] = new Dictionary<string, object?>
+            {
+                ["@type"] = "Answer",
+                ["text"] = Localizer[item.AnswerKey].Value
+            }
+        }).ToList()
+    };
+    var faqJsonLdRaw = JsonSerializer.Serialize(faqJsonLd);
 }
 
 <section class="hero-section" aria-labelledby="hero-title">
     <img src="~/img/hotel/home-hero.jpg" class="hero-image" width="1600" height="840" alt="@Localizer["Home.Hero.ImageAlt"]" loading="eager" />
     <div class="hero-overlay">
         <div class="container">
-            <p class="eyebrow">@Localizer["Home.Hero.Eyebrow"]</p>
-            <h1 id="hero-title" class="display-4">@Localizer["Home.Hero.Title"]</h1>
-            <p class="lead">@Localizer["Home.Hero.Subtitle"]</p>
-            <a class="btn btn-gold btn-lg" href="@Model.Page.BookingUrl">@Localizer["Common.CheckAvailability"]</a>
+            <div class="hero-copy">
+                <p class="eyebrow">@Localizer["Home.Hero.Eyebrow"]</p>
+                <h1 id="hero-title" class="display-4">@Localizer["Home.Hero.Title"]</h1>
+                <p class="lead">@Localizer["Home.Hero.Subtitle"]</p>
+                <a class="btn btn-gold btn-lg" href="@Model.Page.BookingUrl">@Localizer["Common.CheckAvailability"]</a>
+            </div>
         </div>
     </div>
 </section>
 
-<section class="py-5" aria-labelledby="quick-links-title">
+<section class="section availability-section" aria-labelledby="availability-title">
     <div class="container">
-        <h2 id="quick-links-title" class="h3 mb-4">@Localizer["Home.Quick.Title"]</h2>
+        <div class="availability-widget" data-availability-widget>
+            <div class="availability-head">
+                <h2 id="availability-title" class="h3 section-title mb-2">@Localizer["Home.Availability.Title"]</h2>
+                <p class="section-subtitle mb-0">@Localizer["Home.Availability.Subtitle"]</p>
+            </div>
+            <div class="row g-3 mt-1">
+                <div class="col-md-4">
+                    <label class="form-label" for="availabilityRoom">@Localizer["Home.Availability.RoomLabel"]</label>
+                    <select id="availabilityRoom" class="form-select" data-availability-room>
+                        @foreach (var room in Model.RoomRateOptions)
+                        {
+                            <option value="@room.Slug" data-price="@room.StartingPrice.ToString(System.Globalization.CultureInfo.InvariantCulture)">@Localizer[room.TitleKey] - @room.StartingPrice.ToString("N0") @Localizer["Home.Availability.Currency"]</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label" for="availabilityCheckIn">@Localizer["Home.Availability.CheckInLabel"]</label>
+                    <input id="availabilityCheckIn" type="date" class="form-control" data-availability-checkin />
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label" for="availabilityCheckOut">@Localizer["Home.Availability.CheckOutLabel"]</label>
+                    <input id="availabilityCheckOut" type="date" class="form-control" data-availability-checkout />
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label" for="availabilityGuests">@Localizer["Home.Availability.GuestsLabel"]</label>
+                    <select id="availabilityGuests" class="form-select" data-availability-guests>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+            </div>
+            <div class="availability-footer mt-3">
+                <p class="availability-estimate mb-0">
+                    <span class="availability-estimate-label">@Localizer["Home.Availability.EstimateLabel"]</span>
+                    <strong data-availability-total>0</strong>
+                    <span class="availability-estimate-note">@Localizer["Home.Availability.TotalNote"]</span>
+                </p>
+                <a href="@Model.Page.BookingUrl" class="btn btn-gold" data-availability-cta>@Localizer["Common.CheckAvailability"]</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" aria-labelledby="quick-links-title">
+    <div class="container">
+        <h2 id="quick-links-title" class="h3 section-title">@Localizer["Home.Quick.Title"]</h2>
         <div class="row g-4">
             @foreach (var item in Model.QuickLinks)
             {
                 <div class="col-md-6 col-lg-4">
-                    <article class="card h-100 border-0 shadow-sm">
-                        <img src="@item.Image" class="card-img-top" width="640" height="360" alt="@Localizer[item.TitleKey]" loading="lazy" />
-                        <div class="card-body d-flex flex-column">
-                            <h3 class="h5">@Localizer[item.TitleKey]</h3>
-                            <p class="text-muted">@Localizer[item.DescriptionKey]</p>
-                            <a class="stretched-link link-dark fw-semibold mt-auto" href="@item.Url">@Localizer["Common.ReadMore"]</a>
+                    <article class="liquid-card h-100">
+                        <div class="liquid-media">
+                            <img src="@item.Image" class="card-img-top" width="640" height="360" alt="@Localizer[item.TitleKey]" loading="lazy" />
+                        </div>
+                        <div class="liquid-body d-flex flex-column">
+                            <h3 class="liquid-title display-font h5">@Localizer[item.TitleKey]</h3>
+                            <div class="liquid-rule"></div>
+                            <p class="liquid-desc mb-3">@Localizer[item.DescriptionKey]</p>
+                            <a class="premium-link mt-auto" href="@item.Url">@Localizer["Common.ReadMore"]</a>
                         </div>
                     </article>
                 </div>
@@ -41,10 +131,116 @@
     </div>
 </section>
 
-<section class="concept-band py-5" aria-labelledby="concept-title">
+<section class="section featured-offers-section bg-light" aria-labelledby="featured-offers-title">
     <div class="container">
-        <h2 id="concept-title" class="h3">@Localizer["Concept.Title"]</h2>
-        <p class="mb-0">@Localizer["Concept.Description"]</p>
+        <h2 id="featured-offers-title" class="h3 section-title">@Localizer["Home.FeaturedOffers.Title"]</h2>
+        <p class="section-subtitle mb-4">@Localizer["Home.FeaturedOffers.Subtitle"]</p>
+        <div class="row g-4">
+            @foreach (var offer in Model.FeaturedOffers)
+            {
+                var detailUrl = Url.Action("OfferDetail", "Site", new { culture = Model.Page.Culture, slug = offer.Slug });
+                <div class="col-md-6">
+                    <article class="liquid-card h-100">
+                        <div class="liquid-media">
+                            <img src="@offer.Images.FirstOrDefault()" class="card-img-top" width="640" height="360" alt="@Localizer[offer.TitleKey]" loading="lazy" />
+                        </div>
+                        <div class="liquid-body d-flex flex-column">
+                            <span class="offer-chip">@Localizer["Home.FeaturedOffers.Badge"]</span>
+                            <h3 class="liquid-title display-font h5 mt-2">@Localizer[offer.TitleKey]</h3>
+                            <div class="liquid-rule"></div>
+                            <p class="liquid-desc mb-2">@Localizer[offer.ShortDescriptionKey]</p>
+                            <p class="small text-muted mb-3">@Localizer[offer.ValidityKey]</p>
+                            <a class="premium-link mt-auto" href="@detailUrl">@Localizer["Common.Details"]</a>
+                        </div>
+                    </article>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="section guide-section" aria-labelledby="gumbet-guide-title">
+    <div class="container">
+        <h2 id="gumbet-guide-title" class="h3 section-title">@Localizer["Home.Guide.Title"]</h2>
+        <p class="section-subtitle mb-4">@Localizer["Home.Guide.Subtitle"]</p>
+        <div class="row g-4">
+            @foreach (var item in guideItems)
+            {
+                <div class="col-md-6 col-xl-3">
+                    <article class="guide-card h-100">
+                        <h3 class="h6 mb-2">@Localizer[item.TitleKey]</h3>
+                        <p class="small mb-2">@Localizer[item.DescriptionKey]</p>
+                        <p class="guide-meta mb-0">@Localizer[item.MetaKey]</p>
+                    </article>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="section testimonials-section" aria-labelledby="guest-reviews-title">
+    <div class="container">
+        <h2 id="guest-reviews-title" class="h3 section-title">@Localizer["Home.Reviews.Title"]</h2>
+        <p class="section-subtitle mb-4">@Localizer["Home.Reviews.Subtitle"]</p>
+
+        <div id="homeReviewsCarousel" class="carousel slide review-carousel" data-bs-ride="carousel" data-bs-interval="6000">
+            <div class="carousel-indicators">
+                @for (var i = 0; i < reviews.Length; i++)
+                {
+                    <button type="button" data-bs-target="#homeReviewsCarousel" data-bs-slide-to="@i" class="@(i == 0 ? "active" : string.Empty)" aria-label="Slide @(i + 1)" aria-current="@(i == 0 ? "true" : "false")"></button>
+                }
+            </div>
+            <div class="carousel-inner">
+                @for (var i = 0; i < reviews.Length; i++)
+                {
+                    var review = reviews[i];
+                    <div class="carousel-item @(i == 0 ? "active" : string.Empty)">
+                        <article class="review-card">
+                            <p class="review-quote">"@Localizer[review.QuoteKey]"</p>
+                            <div class="review-footer">
+                                <div>
+                                    <p class="review-name mb-0">@Localizer[review.NameKey]</p>
+                                    <p class="review-meta mb-0">@Localizer[review.MetaKey]</p>
+                                </div>
+                                <span class="review-score">@Localizer[review.ScoreKey]</span>
+                            </div>
+                        </article>
+                    </div>
+                }
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#homeReviewsCarousel" data-bs-slide="prev" aria-label="@Localizer["Home.Reviews.Previous"]">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#homeReviewsCarousel" data-bs-slide="next" aria-label="@Localizer["Home.Reviews.Next"]">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<section class="section faq-section bg-light" aria-labelledby="home-faq-title">
+    <div class="container">
+        <h2 id="home-faq-title" class="h3 section-title">@Localizer["Home.Faq.Title"]</h2>
+        <p class="section-subtitle mb-4">@Localizer["Home.Faq.Subtitle"]</p>
+
+        <div class="accordion faq-accordion" id="homeFaqAccordion">
+            @for (var i = 0; i < faqItems.Length; i++)
+            {
+                var item = faqItems[i];
+                var headingId = $"home-faq-heading-{i}";
+                var collapseId = $"home-faq-collapse-{i}";
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="@headingId">
+                        <button class="accordion-button @(i == 0 ? string.Empty : "collapsed")" type="button" data-bs-toggle="collapse" data-bs-target="#@collapseId" aria-expanded="@(i == 0 ? "true" : "false")" aria-controls="@collapseId">
+                            @Localizer[item.QuestionKey]
+                        </button>
+                    </h3>
+                    <div id="@collapseId" class="accordion-collapse collapse @(i == 0 ? "show" : string.Empty)" aria-labelledby="@headingId" data-bs-parent="#homeFaqAccordion">
+                        <div class="accordion-body">@Localizer[item.AnswerKey]</div>
+                    </div>
+                </div>
+            }
+        </div>
     </div>
 </section>
 
@@ -59,4 +255,6 @@
     </div>
 </section>
 
-<partial name="_UpsellCards" />
+@section Scripts {
+    <script type="application/ld+json">@Html.Raw(faqJsonLdRaw)</script>
+}

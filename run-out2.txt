@@ -1,0 +1,1563 @@
+src\Hotel.Web\Properties\launchSettings.json içindeki başlatma ayarları kullanılıyor...
+dbug: Microsoft.Extensions.Hosting.Internal.Host[1]
+      Hosting starting
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[63]
+      User profile is available. Using 'C:\Users\balkanlenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5016
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\balkanlenovo\Desktop\Ivır zıvır\44Life\src\Hotel.Web
+dbug: Microsoft.Extensions.Hosting.Internal.Host[2]
+      Hosting started
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:5016/en - - -
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Hotel.Web.Controllers.SiteController.Home (Hotel.Web)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "Home", controller = "Site"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Home(System.String) on controller Hotel.Web.Controllers.SiteController (Hotel.Web).
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Season.Message.Summer2026' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Home.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Home.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Home.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Home.Hero.ImageAlt' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Home.Hero.Eyebrow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Home.Hero.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Home.Hero.Subtitle' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.CheckAvailability' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Home.Quick.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Accommodation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Accommodation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Home.Quick.Accommodation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.ReadMore' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Dining' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Dining' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Home.Quick.Dining' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.ReadMore' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Experiences' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Experiences' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Home.Quick.Experiences' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.ReadMore' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Wellness' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Wellness' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Home.Quick.Wellness' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.ReadMore' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Offers' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Offers' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Home.Quick.Offers' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.ReadMore' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Concept.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Concept.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Home.QuickContact.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Home.QuickContact.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.WhatsApp' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.Call' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Upsell.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Upsell.Cabana' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.ComingSoon' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Upsell.DayPass' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.ComingSoon' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Upsell.Transfer' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.ComingSoon' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SkipToContent' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.ToggleNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Home' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Accommodation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Dining' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Experiences' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Wellness' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Offers' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Events' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Gallery' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Contact' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToTurkish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToEnglish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.BookNow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.Footer' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Legal' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Kvkk' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Privacy' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Cookies' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Follow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Rights' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Text' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Accept' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Home executed in 167.034ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action Hotel.Web.Controllers.SiteController.Home (Hotel.Web) in 275.1311ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Hotel.Web.Controllers.SiteController.Home (Hotel.Web)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:5016/en - 200 - text/html;+charset=utf-8 351.8513ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:5016/en/accommodation - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Hotel.Web.Controllers.SiteController.Accommodation (Hotel.Web)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "Accommodation", controller = "Site"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Accommodation(System.String, System.Threading.CancellationToken) on controller Hotel.Web.Controllers.SiteController (Hotel.Web).
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Season.Message.Summer2026' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Accommodation.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Accommodation.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Accommodation.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Accommodation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accommodation.Intro' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accommodation.Filter.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accommodation.Filter.Capacity' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.All' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accommodation.Filter.MinSize' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.All' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accommodation.Filter.View' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.All' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'View.sea' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'View.garden' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'View.marina' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accommodation.Filter.Bed' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.All' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Bed.king' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Bed.twin' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Bed.queen' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accommodation.Filter.PrivatePool' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.All' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.Yes' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.No' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Room.Deluxe.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Room.Deluxe.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Room.Deluxe.Short' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.Capacity' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'View.sea' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Feature.SeaView' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Feature.PrivateBalcony' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Feature.SmartTv' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.Details' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.BookNow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Room.LagoonSuite.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Room.LagoonSuite.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Room.LagoonSuite.Short' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.Capacity' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'View.marina' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Feature.SuiteLiving' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Feature.RainShower' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Feature.Espresso' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.Details' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.BookNow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Room.GardenFamily.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Room.GardenFamily.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Room.GardenFamily.Short' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.Capacity' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'View.garden' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Feature.GardenAccess' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Feature.TwinOption' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Feature.DoubleVanity' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.Details' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.BookNow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Room.PremiumVilla.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Room.PremiumVilla.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Room.PremiumVilla.Short' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.Capacity' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'View.sea' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Feature.PrivatePool' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Feature.Butler' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Feature.SunsetDeck' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.Details' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.BookNow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accommodation.Filter.Empty' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SkipToContent' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.ToggleNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Home' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Accommodation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Dining' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Experiences' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Wellness' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Offers' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Events' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Gallery' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Contact' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToTurkish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToEnglish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.BookNow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.Footer' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Legal' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Kvkk' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Privacy' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Cookies' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Follow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Rights' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Text' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Accept' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Accommodation executed in 42.5222ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action Hotel.Web.Controllers.SiteController.Accommodation (Hotel.Web) in 91.2858ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Hotel.Web.Controllers.SiteController.Accommodation (Hotel.Web)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:5016/en/accommodation - 200 - text/html;+charset=utf-8 120.6881ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:5016/en/dining - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Hotel.Web.Controllers.SiteController.Dining (Hotel.Web)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "Dining", controller = "Site"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Dining(System.String, System.Threading.CancellationToken) on controller Hotel.Web.Controllers.SiteController (Hotel.Web).
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Season.Message.Summer2026' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Dining.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Dining.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Dining.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Dining' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Dining.Intro' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Dining.Basilico.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Dining.Basilico.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Dining.Basilico.Short' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Dining.WorkingHours' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Dining.Hours.AllDay' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Dining.DressCode' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Dining.Dress.SmartCasual' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.Details' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Dining.Azure.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Dining.Azure.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Dining.Azure.Short' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Dining.WorkingHours' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Dining.Hours.Beach' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Dining.DressCode' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Dining.Dress.Resort' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.Details' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Dining.Solis.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Dining.Solis.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Dining.Solis.Short' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Dining.WorkingHours' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Dining.Hours.Rooftop' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Dining.DressCode' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Dining.Dress.Evening' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.Details' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SkipToContent' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.ToggleNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Home' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Accommodation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Dining' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Experiences' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Wellness' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Offers' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Events' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Gallery' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Contact' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToTurkish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToEnglish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.BookNow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.Footer' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Legal' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Kvkk' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Privacy' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Cookies' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Follow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Rights' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Text' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Accept' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Dining executed in 11.0977ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action Hotel.Web.Controllers.SiteController.Dining (Hotel.Web) in 23.2011ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Hotel.Web.Controllers.SiteController.Dining (Hotel.Web)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:5016/en/dining - 200 - text/html;+charset=utf-8 31.4189ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:5016/en/experiences - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Hotel.Web.Controllers.SiteController.Experiences (Hotel.Web)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "Experiences", controller = "Site"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Experiences(System.String) on controller Hotel.Web.Controllers.SiteController (Hotel.Web).
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Season.Message.Summer2026' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Experiences.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Experiences.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Experiences.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Experiences' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Experiences.Intro' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Experiences.Beach.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Experiences.Beach.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Experiences.Beach.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Experiences.WaterSports.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Experiences.WaterSports.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Experiences.WaterSports.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Experiences.Yacht.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Experiences.Yacht.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Experiences.Yacht.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Experiences.Sport.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Experiences.Sport.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Experiences.Sport.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SkipToContent' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.ToggleNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Home' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Accommodation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Dining' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Experiences' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Wellness' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Offers' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Events' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Gallery' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Contact' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToTurkish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToEnglish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.BookNow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.Footer' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Legal' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Kvkk' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Privacy' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Cookies' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Follow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Rights' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Text' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Accept' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Experiences executed in 19.8193ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action Hotel.Web.Controllers.SiteController.Experiences (Hotel.Web) in 21.8774ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Hotel.Web.Controllers.SiteController.Experiences (Hotel.Web)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:5016/en/experiences - 200 - text/html;+charset=utf-8 25.7131ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:5016/en/wellness - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Hotel.Web.Controllers.SiteController.Wellness (Hotel.Web)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "Wellness", controller = "Site"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Wellness(System.String) on controller Hotel.Web.Controllers.SiteController (Hotel.Web).
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Season.Message.Summer2026' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Wellness.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Wellness.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Wellness.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Wellness' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Wellness.Intro' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Wellness.Spa.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Wellness.Spa.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Wellness.Spa.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Wellness.Hamam.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Wellness.Hamam.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Wellness.Hamam.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Wellness.Fitness.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Wellness.Fitness.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Wellness.Fitness.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Wellness.BookAppointment' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SkipToContent' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.ToggleNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Home' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Accommodation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Dining' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Experiences' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Wellness' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Offers' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Events' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Gallery' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Contact' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToTurkish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToEnglish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.BookNow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.Footer' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Legal' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Kvkk' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Privacy' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Cookies' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Follow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Rights' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Text' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Accept' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Wellness executed in 26.4313ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action Hotel.Web.Controllers.SiteController.Wellness (Hotel.Web) in 27.7946ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Hotel.Web.Controllers.SiteController.Wellness (Hotel.Web)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:5016/en/wellness - 200 - text/html;+charset=utf-8 31.0199ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:5016/en/offers - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Hotel.Web.Controllers.SiteController.Offers (Hotel.Web)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "Offers", controller = "Site"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Offers(System.String, System.Threading.CancellationToken) on controller Hotel.Web.Controllers.SiteController (Hotel.Web).
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Season.Message.Summer2026' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Offers.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Offers.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Offers.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Offers' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Offers.Intro' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Offer.EarlyBooking.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Offer.EarlyBooking.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Offer.EarlyBooking.Short' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Offer.EarlyBooking.Validity' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.Details' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Offer.LongStay.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Offer.LongStay.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Offer.LongStay.Short' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Offer.LongStay.Validity' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.Details' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Offer.Honeymoon.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Offer.Honeymoon.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Offer.Honeymoon.Short' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Offer.Honeymoon.Validity' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.Details' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SkipToContent' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.ToggleNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Home' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Accommodation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Dining' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Experiences' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Wellness' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Offers' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Events' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Gallery' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Contact' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToTurkish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToEnglish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.BookNow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.Footer' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Legal' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Kvkk' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Privacy' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Cookies' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Follow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Rights' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Text' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Accept' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Offers executed in 13.7799ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action Hotel.Web.Controllers.SiteController.Offers (Hotel.Web) in 21.0309ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Hotel.Web.Controllers.SiteController.Offers (Hotel.Web)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:5016/en/offers - 200 - text/html;+charset=utf-8 30.5111ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:5016/en/events - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Hotel.Web.Controllers.SiteController.Events (Hotel.Web)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "Events", controller = "Site"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Events(System.String) on controller Hotel.Web.Controllers.SiteController (Hotel.Web).
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Season.Message.Summer2026' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Events.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Events.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Events.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Events' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Events.Intro' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Events.Weddings.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Events.Weddings.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Events.Weddings.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Events.Meetings.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Events.Meetings.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Events.Meetings.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Events.Form.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Form.Name' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Validation.Required' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Validation.StringLength' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Form.Email' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Validation.Required' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Validation.Email' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Form.Phone' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Validation.Required' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Validation.Phone' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Form.Date' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Validation.Required' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Form.Message' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Validation.Required' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Validation.StringLength' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Events.Form.Submit' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Form.CrmNote' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SkipToContent' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.ToggleNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Home' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Accommodation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Dining' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Experiences' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Wellness' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Offers' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Events' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Gallery' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Contact' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToTurkish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToEnglish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.BookNow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.Footer' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Legal' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Kvkk' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Privacy' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Cookies' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Follow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Rights' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Text' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Accept' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Events executed in 101.1365ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action Hotel.Web.Controllers.SiteController.Events (Hotel.Web) in 105.3497ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Hotel.Web.Controllers.SiteController.Events (Hotel.Web)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:5016/en/events - 200 - text/html;+charset=utf-8 109.0388ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:5016/en/gallery - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Hotel.Web.Controllers.SiteController.Gallery (Hotel.Web)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "Gallery", controller = "Site"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Gallery(System.String, System.Threading.CancellationToken) on controller Hotel.Web.Controllers.SiteController (Hotel.Web).
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Season.Message.Summer2026' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Gallery.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Gallery.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Gallery.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Gallery' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Intro' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.All' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Category.Hotel' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Category.Rooms' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Category.Dining' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Category.Beach' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Category.Spa' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Hotel.Lobby.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Hotel.Lobby.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Hotel.Lobby.Short' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Hotel.Terrace.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Hotel.Terrace.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Hotel.Terrace.Short' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Room.Deluxe.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Room.Deluxe.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Room.Deluxe.Short' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Room.Villa.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Room.Villa.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Room.Villa.Short' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Dining.Signature.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Dining.Signature.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Dining.Signature.Short' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Dining.Rooftop.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Dining.Rooftop.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Dining.Rooftop.Short' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Beach.Cabana.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Beach.Cabana.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Beach.Cabana.Short' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Beach.Sunset.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Beach.Sunset.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Beach.Sunset.Short' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Spa.Suite.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Spa.Suite.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Spa.Suite.Short' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Spa.Ritual.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Spa.Ritual.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Spa.Ritual.Short' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Video.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Gallery.Video.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SkipToContent' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.ToggleNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Home' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Accommodation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Dining' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Experiences' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Wellness' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Offers' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Events' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Gallery' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Contact' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToTurkish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToEnglish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.BookNow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.Footer' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Legal' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Kvkk' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Privacy' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Cookies' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Follow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Rights' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Text' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Accept' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Gallery executed in 26.3265ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action Hotel.Web.Controllers.SiteController.Gallery (Hotel.Web) in 38.0964ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Hotel.Web.Controllers.SiteController.Gallery (Hotel.Web)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:5016/en/gallery - 200 - text/html;+charset=utf-8 53.3089ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:5016/en/contact - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Hotel.Web.Controllers.SiteController.Contact (Hotel.Web)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "Contact", controller = "Site"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Contact(System.String) on controller Hotel.Web.Controllers.SiteController (Hotel.Web).
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Season.Message.Summer2026' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Contact.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Contact.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Contact.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Contact' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Contact.Intro' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Contact.AddressTitle' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.WhatsApp' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Contact.MapAlt' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Contact.TransferInfo' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Contact.Form.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Form.Name' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Validation.Required' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Validation.StringLength' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Form.Email' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Validation.Required' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Validation.Email' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Form.Subject' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Validation.Required' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Validation.StringLength' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Form.Message' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Validation.Required' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Validation.StringLength' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Contact.Form.Submit' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Form.CrmNote' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SkipToContent' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.ToggleNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Home' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Accommodation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Dining' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Experiences' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Wellness' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Offers' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Events' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Gallery' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Contact' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToTurkish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToEnglish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.BookNow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.Footer' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Legal' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Kvkk' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Privacy' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Cookies' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Follow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Rights' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Text' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Accept' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Contact executed in 59.6208ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action Hotel.Web.Controllers.SiteController.Contact (Hotel.Web) in 63.772ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Hotel.Web.Controllers.SiteController.Contact (Hotel.Web)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:5016/en/contact - 200 - text/html;+charset=utf-8 65.6381ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:5016/en/book - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Hotel.Web.Controllers.SiteController.Reservation (Hotel.Web)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "Reservation", controller = "Site"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Reservation(System.String) on controller Hotel.Web.Controllers.SiteController (Hotel.Web).
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Season.Message.Summer2026' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Book.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Book.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Reservation.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Reservation.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Reservation.NotConnected' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Reservation.ContactFallback' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SkipToContent' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.ToggleNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Home' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Accommodation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Dining' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Experiences' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Wellness' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Offers' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Events' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Gallery' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Contact' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToTurkish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToEnglish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.BookNow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.Footer' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Legal' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Kvkk' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Privacy' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Cookies' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Follow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Rights' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Text' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Accept' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Reservation executed in 13.4129ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action Hotel.Web.Controllers.SiteController.Reservation (Hotel.Web) in 14.5084ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Hotel.Web.Controllers.SiteController.Reservation (Hotel.Web)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:5016/en/book - 200 - text/html;+charset=utf-8 16.3101ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:5016/en/personal-data - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Hotel.Web.Controllers.SiteController.Kvkk (Hotel.Web)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "Kvkk", controller = "Site"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Kvkk(System.String) on controller Hotel.Web.Controllers.SiteController (Hotel.Web).
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Season.Message.Summer2026' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Kvkk.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Kvkk.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Kvkk.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Legal.Kvkk.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Legal.Kvkk.Content' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SkipToContent' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.ToggleNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Home' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Accommodation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Dining' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Experiences' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Wellness' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Offers' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Events' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Gallery' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Contact' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToTurkish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToEnglish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.BookNow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.Footer' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Legal' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Kvkk' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Privacy' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Cookies' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Follow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Rights' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Text' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Accept' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Kvkk executed in 14.0119ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action Hotel.Web.Controllers.SiteController.Kvkk (Hotel.Web) in 15.7051ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Hotel.Web.Controllers.SiteController.Kvkk (Hotel.Web)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:5016/en/personal-data - 200 - text/html;+charset=utf-8 19.3003ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:5016/en/privacy - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Hotel.Web.Controllers.SiteController.Privacy (Hotel.Web)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "Privacy", controller = "Site"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy(System.String) on controller Hotel.Web.Controllers.SiteController (Hotel.Web).
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Season.Message.Summer2026' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Privacy.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Privacy.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Privacy.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Legal.Privacy.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Legal.Privacy.Content' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SkipToContent' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.ToggleNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Home' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Accommodation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Dining' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Experiences' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Wellness' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Offers' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Events' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Gallery' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Contact' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToTurkish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToEnglish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.BookNow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.Footer' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Legal' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Kvkk' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Privacy' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Cookies' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Follow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Rights' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Text' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Accept' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Privacy executed in 17.8015ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action Hotel.Web.Controllers.SiteController.Privacy (Hotel.Web) in 19.5038ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Hotel.Web.Controllers.SiteController.Privacy (Hotel.Web)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:5016/en/privacy - 200 - text/html;+charset=utf-8 43.0031ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:5016/en/cookies - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Hotel.Web.Controllers.SiteController.Cookies (Hotel.Web)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "Cookies", controller = "Site"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Cookies(System.String) on controller Hotel.Web.Controllers.SiteController (Hotel.Web).
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Season.Message.Summer2026' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Cookies.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Cookies.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Cookies.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Legal.Cookies.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Legal.Cookies.Content' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SkipToContent' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.ToggleNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Home' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Accommodation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Dining' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Experiences' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Wellness' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Offers' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Events' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Gallery' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Contact' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToTurkish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToEnglish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.BookNow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.Footer' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Legal' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Kvkk' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Privacy' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Cookies' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Follow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Rights' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Text' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Accept' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Cookies executed in 6.5254ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action Hotel.Web.Controllers.SiteController.Cookies (Hotel.Web) in 7.215ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Hotel.Web.Controllers.SiteController.Cookies (Hotel.Web)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:5016/en/cookies - 200 - text/html;+charset=utf-8 9.0029ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:5016/en/tour - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Hotel.Web.Controllers.SiteController.Tour (Hotel.Web)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "Tour", controller = "Site"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Tour(System.String) on controller Hotel.Web.Controllers.SiteController (Hotel.Web).
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Season.Message.Summer2026' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Tour.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Seo.Tour.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Tour.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Tour.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Tour.Description' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Tour.Title' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.ComingSoon' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SkipToContent' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.MainNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.ToggleNavigation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Home' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Accommodation' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Dining' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Experiences' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Wellness' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Offers' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Events' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Gallery' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Nav.Contact' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToTurkish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.SwitchToEnglish' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Common.BookNow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Accessibility.Footer' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Legal' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Kvkk' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Privacy' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Cookies' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Follow' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'Footer.Rights' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Text' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+dbug: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer[1]
+      ResourceManagerStringLocalizer searched for 'CookieConsent.Accept' in 'Hotel.Web.Resources.SharedResource' with culture 'en'.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Tour executed in 11.9015ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action Hotel.Web.Controllers.SiteController.Tour (Hotel.Web) in 13.2101ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Hotel.Web.Controllers.SiteController.Tour (Hotel.Web)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:5016/en/tour - 200 - text/html;+charset=utf-8 15.8197ms

@@ -10,7 +10,8 @@
     "bedType": "king",
     "viewType": "sea",
     "isVilla": false,
-    "hasPrivatePool": false
+    "hasPrivatePool": false,
+    "startingPrice": 6900
   },
   {
     "slug": "lagoon-suite",
@@ -23,7 +24,8 @@
     "bedType": "king",
     "viewType": "marina",
     "isVilla": false,
-    "hasPrivatePool": false
+    "hasPrivatePool": false,
+    "startingPrice": 8450
   },
   {
     "slug": "garden-family",
@@ -36,7 +38,8 @@
     "bedType": "twin",
     "viewType": "garden",
     "isVilla": false,
-    "hasPrivatePool": false
+    "hasPrivatePool": false,
+    "startingPrice": 9650
   },
   {
     "slug": "premium-villa",
@@ -49,6 +52,7 @@
     "bedType": "queen",
     "viewType": "sea",
     "isVilla": true,
-    "hasPrivatePool": true
+    "hasPrivatePool": true,
+    "startingPrice": 16900
   }
 ]

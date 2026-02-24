@@ -1,0 +1,17 @@
+
+.NET 10.0 sürümüne hoş geldiniz!
+---------------------
+SDK Sürümü: 10.0.103
+
+----------------
+Bir ASP.NET Core HTTPS geliştirme sertifikası yüklendi.
+Sertifikaya güvenmek için 'dotnet dev-certs https --trust' çalıştırın
+Bilgi edinmek için bkz. https://aka.ms/dotnet-https
+
+----------------
+İlk uygulamanızı yazın: https://aka.ms/dotnet-hello-world
+Yenilikleri öğrenin: https://aka.ms/dotnet-whats-new
+Belgeleri keşfedin: https://aka.ms/dotnet-docs
+Sorunları bildirin ve GitHub'da kaynak bulun: https://github.com/dotnet/core
+Kullanılabilir komutları görmek için 'dotnet --help' komutunu kullanın veya şu adresi ziyaret edin: https://aka.ms/dotnet-cli
+--------------------------------------------------------------------------------------

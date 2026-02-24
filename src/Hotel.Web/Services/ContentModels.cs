@@ -15,6 +15,7 @@ public sealed class RoomItem
     public string ViewType { get; set; } = string.Empty;
     public bool IsVilla { get; set; }
     public bool HasPrivatePool { get; set; }
+    public decimal StartingPrice { get; set; }
 }
 
 public sealed class RestaurantItem

@@ -7,7 +7,7 @@
     var whatsAppRaw = (Configuration["Contact:WhatsApp"] ?? "+90 555 000 00 00").Replace(" ", string.Empty).Replace("+", string.Empty);
     var whatsAppLink = $"https://wa.me/{whatsAppRaw}";
     var email = Configuration["Contact:Email"] ?? "hello@quatrolife.com";
-    var address = Configuration["Contact:Address"] ?? "Gumbet, Bodrum, Mugla";
+    var address = Configuration["Contact:Address"] ?? "Gümbet, Bodrum, Muğla";
 }
 
 <section class="page-hero compact py-5 bg-light" aria-labelledby="contact-title">
@@ -21,14 +21,15 @@
     <div class="container">
         <div class="row g-4">
             <div class="col-lg-6">
-                <article class="card border-0 shadow-sm h-100">
-                    <div class="card-body">
-                        <h2 class="h5">@Localizer["Contact.AddressTitle"]</h2>
+                <article class="liquid-card h-100">
+                    <div class="liquid-body">
+                        <h2 class="liquid-title display-font h5">@Localizer["Contact.AddressTitle"]</h2>
+                        <div class="liquid-rule"></div>
                         <p>@address</p>
                         <p class="mb-1"><a href="tel:@phone">@phone</a></p>
                         <p><a href="mailto:@email">@email</a></p>
                         <p><a href="@whatsAppLink" target="_blank" rel="noopener noreferrer">@Localizer["Common.WhatsApp"]</a></p>
-                        <img src="~/img/hotel/contact-location.jpg" width="900" height="450" class="img-fluid rounded-4" alt="@Localizer["Contact.MapAlt"]" loading="lazy" />
+                        <img src="~/img/hotel/contact-location.jpg" width="900" height="450" class="img-fluid rounded-4 contact-media" alt="@Localizer["Contact.MapAlt"]" loading="lazy" />
                         <p class="small text-muted mt-3 mb-0">@Localizer["Contact.TransferInfo"]</p>
                     </div>
                 </article>
@@ -74,3 +75,4 @@
         </div>
     </div>
 </section>
+

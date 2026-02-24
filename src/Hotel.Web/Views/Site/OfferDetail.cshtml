@@ -14,11 +14,11 @@
     <div class="container">
         <div class="row g-4">
             <div class="col-lg-7">
-                <img src="@Model.Offer.Images.FirstOrDefault()" class="img-fluid rounded-4 shadow-sm" width="1200" height="720" alt="@Localizer[Model.Offer.TitleKey]" loading="lazy" />
+                <img src="@Model.Offer.Images.FirstOrDefault()" class="img-fluid rounded-4 shadow-sm detail-media" width="1200" height="720" alt="@Localizer[Model.Offer.TitleKey]" loading="lazy" />
             </div>
             <div class="col-lg-5">
-                <article class="card border-0 shadow-sm h-100">
-                    <div class="card-body">
+                <article class="liquid-card h-100">
+                    <div class="liquid-body">
                         <p class="text-muted">@Localizer[Model.Offer.ValidityKey]</p>
                         <ul class="feature-list mb-4">
                             @foreach (var feature in Model.Offer.FeaturesKeys)
@@ -33,3 +33,4 @@
         </div>
     </div>
 </section>
+

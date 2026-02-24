@@ -14,6 +14,15 @@ public sealed class HomePageViewModel
 {
     public required PageContextViewModel Page { get; init; }
     public required IReadOnlyList<QuickLinkViewModel> QuickLinks { get; init; }
+    public required IReadOnlyList<RoomRateOptionViewModel> RoomRateOptions { get; init; }
+    public required IReadOnlyList<OfferItem> FeaturedOffers { get; init; }
+}
+
+public sealed class RoomRateOptionViewModel
+{
+    public required string Slug { get; init; }
+    public required string TitleKey { get; init; }
+    public decimal StartingPrice { get; init; }
 }
 
 public sealed class AccommodationPageViewModel

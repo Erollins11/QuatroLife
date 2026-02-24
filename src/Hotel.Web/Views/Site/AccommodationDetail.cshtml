@@ -14,12 +14,13 @@
     <div class="container">
         <div class="row g-4">
             <div class="col-lg-8">
-                <img src="@Model.Room.Images.FirstOrDefault()" class="img-fluid rounded-4 shadow-sm" width="1200" height="720" alt="@Localizer[Model.Room.TitleKey]" loading="lazy" />
+                <img src="@Model.Room.Images.FirstOrDefault()" class="img-fluid rounded-4 shadow-sm detail-media" width="1200" height="720" alt="@Localizer[Model.Room.TitleKey]" loading="lazy" />
             </div>
             <div class="col-lg-4">
-                <div class="card border-0 shadow-sm h-100">
-                    <div class="card-body">
-                        <h2 class="h5">@Localizer["Accommodation.Specs"]</h2>
+                <article class="liquid-card h-100">
+                    <div class="liquid-body">
+                        <h2 class="liquid-title display-font h5">@Localizer["Accommodation.Specs"]</h2>
+                        <div class="liquid-rule"></div>
                         <ul class="list-unstyled mb-3">
                             <li><strong>@Localizer["Accommodation.Filter.Capacity"]:</strong> @Model.Room.Capacity</li>
                             <li><strong>@Localizer["Accommodation.Filter.MinSize"]:</strong> @Model.Room.SizeSqm m²</li>
@@ -36,8 +37,9 @@
                         </ul>
                         <a href="@Model.Page.BookingUrl" class="btn btn-gold w-100">@Localizer["Common.CheckAvailability"]</a>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
     </div>
 </section>
+

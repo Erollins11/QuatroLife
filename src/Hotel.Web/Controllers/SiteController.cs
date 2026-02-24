@@ -20,13 +20,18 @@ public sealed class SiteController(
     {
         var normalizedCulture = NormalizeCulture(targetCulture);
         var mappedPath = languageRouteService.MapPathToCulture(returnUrl ?? "/", normalizedCulture);
-        return LocalRedirect(mappedPath);
+        var safePath = Url.IsLocalUrl(mappedPath)
+            ? mappedPath
+            : languageRouteService.PathFor(normalizedCulture, "home");
+        return LocalRedirect(safePath);
     }
 
     [HttpGet]
-    public IActionResult Home(string culture)
+    public async Task<IActionResult> Home(string culture, CancellationToken cancellationToken)
     {
         var context = CreateContext(culture, "Seo.Home.Title", "Seo.Home.Description", "/img/hotel/home-hero.jpg");
+        var rooms = await hotelContentService.GetRoomsAsync(cancellationToken);
+        var offers = await hotelContentService.GetOffersAsync(cancellationToken);
 
         var model = new HomePageViewModel
         {
@@ -38,7 +43,17 @@ public sealed class SiteController(
                 new QuickLinkViewModel { TitleKey = "Nav.Experiences", DescriptionKey = "Home.Quick.Experiences", Url = languageRouteService.PathFor(context.Culture, "deneyimler"), Image = "/img/hotel/experience-yacht.jpg" },
                 new QuickLinkViewModel { TitleKey = "Nav.Wellness", DescriptionKey = "Home.Quick.Wellness", Url = languageRouteService.PathFor(context.Culture, "wellness"), Image = "/img/hotel/wellness-spa.jpg" },
                 new QuickLinkViewModel { TitleKey = "Nav.Offers", DescriptionKey = "Home.Quick.Offers", Url = languageRouteService.PathFor(context.Culture, "teklifler"), Image = "/img/hotel/experience-beach-pool.jpg" }
-            ]
+            ],
+            RoomRateOptions = rooms
+                .OrderBy(item => item.StartingPrice)
+                .Select(item => new RoomRateOptionViewModel
+                {
+                    Slug = item.Slug,
+                    TitleKey = item.TitleKey,
+                    StartingPrice = item.StartingPrice
+                })
+                .ToList(),
+            FeaturedOffers = offers.Take(2).ToList()
         };
 
         return View(model);

@@ -6,23 +6,27 @@
 @{
     var phone = Configuration["Contact:Phone"] ?? "+90 252 000 00 00";
     var email = Configuration["Contact:Email"] ?? "hello@quatrolife.com";
-    var address = Configuration["Contact:Address"] ?? "Gumbet, Bodrum, Mugla";
+    var address = Configuration["Contact:Address"] ?? "Gümbet, Bodrum, Muğla";
     var siteName = Configuration["Seo:SiteName"] ?? "Quatro Life";
 }
 
 <footer class="site-footer mt-5 pt-5 pb-4" aria-label="@Localizer["Accessibility.Footer"]">
-    <div class="container">
+    <div class="container-fluid px-3 px-lg-5">
         <div class="row g-4">
-            <div class="col-lg-4">
-                <div class="d-flex align-items-center gap-2 mb-2">
-                    <img src="~/img/hotel/logo.jpg" class="footer-logo" width="110" height="36" alt="@siteName" loading="lazy" />
-                    <h2 class="h5 mb-0">@siteName</h2>
+            <div class="col-lg-5 col-xl-4 footer-contact-col">
+                <div class="footer-contact-inline">
+                    <span class="footer-logo-liquid">
+                        <img src="~/img/hotel/logo-transparent-cropped.png" class="footer-logo" width="82" height="82" alt="@siteName" loading="lazy" />
+                    </span>
+                    <div class="footer-contact-meta">
+                        <h2 class="h5 mb-2">@siteName</h2>
+                        <p class="mb-1">@address</p>
+                        <p class="mb-1"><a href="tel:@phone">@phone</a></p>
+                        <p class="mb-0"><a href="mailto:@email">@email</a></p>
+                    </div>
                 </div>
-                <p class="mb-1">@address</p>
-                <p class="mb-1"><a href="tel:@phone">@phone</a></p>
-                <p class="mb-0"><a href="mailto:@email">@email</a></p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-xl-4">
                 <h2 class="h6 text-uppercase">@Localizer["Footer.Legal"]</h2>
                 <ul class="list-unstyled mb-0">
                     <li><a href="@Routes.PathFor(Model.Culture, "kvkk")">@Localizer["Footer.Kvkk"]</a></li>
@@ -30,7 +34,7 @@
                     <li><a href="@Routes.PathFor(Model.Culture, "cerez-politikasi")">@Localizer["Footer.Cookies"]</a></li>
                 </ul>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3 col-xl-4">
                 <h2 class="h6 text-uppercase">@Localizer["Footer.Follow"]</h2>
                 <ul class="list-unstyled mb-0">
                     <li><a href="#" aria-label="Instagram">Instagram</a></li>

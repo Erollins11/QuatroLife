@@ -14,17 +14,18 @@
     <div class="container">
         <div class="row g-4 align-items-start">
             <div class="col-lg-8">
-                <img src="@Model.Restaurant.Images.FirstOrDefault()" class="img-fluid rounded-4 shadow-sm" width="1200" height="720" alt="@Localizer[Model.Restaurant.TitleKey]" loading="lazy" />
+                <img src="@Model.Restaurant.Images.FirstOrDefault()" class="img-fluid rounded-4 shadow-sm detail-media" width="1200" height="720" alt="@Localizer[Model.Restaurant.TitleKey]" loading="lazy" />
             </div>
             <div class="col-lg-4">
-                <article class="card border-0 shadow-sm">
-                    <div class="card-body">
+                <article class="liquid-card">
+                    <div class="liquid-body">
                         <p><strong>@Localizer["Dining.WorkingHours"]:</strong> @Localizer[Model.Restaurant.WorkingHoursKey]</p>
                         @if (!string.IsNullOrWhiteSpace(Model.Restaurant.DressCodeKey))
                         {
                             <p><strong>@Localizer["Dining.DressCode"]:</strong> @Localizer[Model.Restaurant.DressCodeKey]</p>
                         }
-                        <h2 class="h6">@Localizer["Dining.Concept"]</h2>
+                        <h2 class="liquid-title display-font h6">@Localizer["Dining.Concept"]</h2>
+                        <div class="liquid-rule"></div>
                         <ul class="feature-list mb-4">
                             @foreach (var feature in Model.Restaurant.FeaturesKeys)
                             {
@@ -38,3 +39,4 @@
         </div>
     </div>
 </section>
+

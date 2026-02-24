@@ -66,16 +66,42 @@
         <div class="row g-4" data-room-grid>
             @foreach (var room in Model.Rooms)
             {
+                var roomTitle = Localizer[room.TitleKey].Value;
+                var viewValue = Localizer[$"View.{room.ViewType}"].Value;
+                var bedValue = Localizer[$"Bed.{room.BedType}"].Value;
+                var poolValue = room.HasPrivatePool ? Localizer["Common.Yes"].Value : Localizer["Common.No"].Value;
+                var detailUrl = Url.Action("AccommodationDetail", "Site", new { culture = Model.Page.Culture, slug = room.Slug }) ?? "#";
+
                 <div class="col-md-6 col-xl-4 room-card" data-room-item data-capacity="@room.Capacity" data-size="@room.SizeSqm" data-view="@room.ViewType" data-bed="@room.BedType" data-pool="@room.HasPrivatePool.ToString().ToLowerInvariant()">
-                    <article class="card h-100 border-0 shadow-sm">
-                        <img src="@room.Images.FirstOrDefault()" class="card-img-top" width="640" height="360" alt="@Localizer[room.TitleKey]" loading="lazy" />
-                        <div class="card-body d-flex flex-column">
-                            <h2 class="h5">@Localizer[room.TitleKey]</h2>
-                            <p class="text-muted">@Localizer[room.ShortDescriptionKey]</p>
+                    <article class="liquid-card h-100">
+                        <div class="liquid-media">
+                            <img src="@room.Images.FirstOrDefault()" class="card-img-top" width="640" height="360" alt="@roomTitle" loading="lazy" />
+                        </div>
+                        <div class="liquid-body d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-start gap-2 mb-2">
+                                <h2 class="liquid-title display-font h5 mb-0">@roomTitle</h2>
+                                <label class="compare-toggle">
+                                    <input type="checkbox"
+                                           data-room-compare-toggle
+                                           data-room-id="@room.Slug"
+                                           data-room-title="@roomTitle"
+                                           data-room-size="@room.SizeSqm"
+                                           data-room-capacity="@room.Capacity"
+                                           data-room-view="@viewValue"
+                                           data-room-bed="@bedValue"
+                                           data-room-pool="@poolValue"
+                                           data-room-price="@room.StartingPrice.ToString(System.Globalization.CultureInfo.InvariantCulture)"
+                                           data-room-url="@detailUrl" />
+                                    <span>@Localizer["Accommodation.Compare.Select"]</span>
+                                </label>
+                            </div>
+                            <div class="liquid-rule"></div>
+                            <p class="liquid-desc">@Localizer[room.ShortDescriptionKey]</p>
+                            <p class="room-price mb-2">@Localizer["Accommodation.Price.From"]: <strong>@room.StartingPrice.ToString("N0") @Localizer["Home.Availability.Currency"]</strong></p>
                             <ul class="list-inline small mb-3 text-secondary">
                                 <li class="list-inline-item">@room.SizeSqm m²</li>
                                 <li class="list-inline-item">@Localizer["Common.Capacity"]: @room.Capacity</li>
-                                <li class="list-inline-item">@Localizer[$"View.{room.ViewType}"]</li>
+                                <li class="list-inline-item">@viewValue</li>
                             </ul>
                             <ul class="feature-list mb-3">
                                 @foreach (var featureKey in room.FeaturesKeys.Take(3))
@@ -83,8 +109,8 @@
                                     <li>@Localizer[featureKey]</li>
                                 }
                             </ul>
-                            <div class="d-flex gap-2 mt-auto">
-                                <a href="@Url.Action("AccommodationDetail", "Site", new { culture = Model.Page.Culture, slug = room.Slug })" class="btn btn-outline-dark">@Localizer["Common.Details"]</a>
+                            <div class="liquid-actions">
+                                <a href="@detailUrl" class="btn btn-outline-dark">@Localizer["Common.Details"]</a>
                                 <a href="@Model.Page.BookingUrl" class="btn btn-gold">@Localizer["Common.BookNow"]</a>
                             </div>
                         </div>
@@ -93,5 +119,50 @@
             }
         </div>
         <p data-room-empty class="alert alert-light mt-4 d-none">@Localizer["Accommodation.Filter.Empty"]</p>
+
+        <div class="room-compare-bar d-none"
+             data-room-compare-bar
+             data-currency="@Localizer["Home.Availability.Currency"]"
+             data-details-label="@Localizer["Common.Details"]"
+             data-max-message="@Localizer["Accommodation.Compare.MaxMessage"]">
+            <div>
+                <p class="mb-1 fw-semibold">@Localizer["Accommodation.Compare.Title"]</p>
+                <div class="room-compare-list" data-room-compare-list></div>
+            </div>
+            <div class="d-flex gap-2">
+                <button type="button" class="btn btn-outline-dark btn-sm" data-room-compare-clear>@Localizer["Accommodation.Compare.Clear"]</button>
+                <button type="button" class="btn btn-gold btn-sm" data-room-compare-open data-bs-toggle="modal" data-bs-target="#roomCompareModal">@Localizer["Accommodation.Compare.Button"]</button>
+            </div>
+        </div>
     </div>
 </section>
+
+<div class="modal fade" id="roomCompareModal" tabindex="-1" aria-labelledby="roomCompareModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title h5" id="roomCompareModalTitle">@Localizer["Accommodation.Compare.ModalTitle"]</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="table-responsive">
+                    <table class="table table-sm align-middle compare-table">
+                        <thead>
+                            <tr>
+                                <th>@Localizer["Accommodation.Compare.Col.Room"]</th>
+                                <th>@Localizer["Accommodation.Compare.Col.Price"]</th>
+                                <th>@Localizer["Accommodation.Compare.Col.Size"]</th>
+                                <th>@Localizer["Accommodation.Compare.Col.Capacity"]</th>
+                                <th>@Localizer["Accommodation.Compare.Col.View"]</th>
+                                <th>@Localizer["Accommodation.Compare.Col.Bed"]</th>
+                                <th>@Localizer["Accommodation.Compare.Col.PrivatePool"]</th>
+                                <th>@Localizer["Accommodation.Compare.Col.Action"]</th>
+                            </tr>
+                        </thead>
+                        <tbody data-room-compare-table></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
