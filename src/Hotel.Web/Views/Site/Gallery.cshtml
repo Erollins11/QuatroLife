@@ -38,8 +38,9 @@
 
         <div class="video-placeholder mt-5">
             <h2 class="h5">@Localizer["Gallery.Video.Title"]</h2>
-            <img src="~/img/hotel/experience-yacht.jpg" width="1200" height="500" alt="@Localizer["Gallery.Video.Title"]" loading="lazy" class="img-fluid rounded-4" />
+            <video class="img-fluid rounded-4" width="1200" height="500" controls preload="metadata" poster="~/img/placeholders/gallery-video.svg" aria-label="@Localizer["Gallery.Video.Title"]">
+                <source src="~/video/gumbet-video.mp4" type="video/mp4" />
+            </video>
         </div>
     </div>
 </section>
-

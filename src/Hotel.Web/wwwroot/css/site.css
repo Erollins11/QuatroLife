@@ -238,6 +238,7 @@ textarea:focus-visible {
     overflow: hidden;
 }
 
+.hero-media,
 .hero-image {
     width: 100%;
     min-height: 460px;
@@ -875,6 +876,14 @@ textarea:focus-visible {
     object-position: center;
 }
 
+.video-placeholder video {
+    width: 100%;
+    aspect-ratio: 21 / 9;
+    object-fit: cover;
+    object-position: center;
+    background: #000;
+}
+
 .main-content {
     min-height: 60vh;
 }
@@ -903,6 +912,7 @@ textarea:focus-visible {
         bottom: 5.8rem;
     }
 
+    .hero-media,
     .hero-image {
         min-height: 380px;
         aspect-ratio: 16 / 9;
@@ -1006,4 +1016,3 @@ textarea:focus-visible {
         max-width: unset;
     }
 }
-
