@@ -26,11 +26,13 @@
   <data name="Accommodation.Filter.PrivatePool" xml:space="preserve"><value>&#214;zel havuz</value></data>
   <data name="Accommodation.Filter.Title" xml:space="preserve"><value>Oda filtreleme</value></data>
   <data name="Accommodation.Filter.View" xml:space="preserve"><value>Manzara</value></data>
-  <data name="Accommodation.Intro" xml:space="preserve"><value>Bodrum &#305;&#351;&#305;&#287;&#305;n&#305; i&#231;eri alan odalar ve suitler, premium bir konfor ritmi sunar.</value></data>
+  <data name="Accommodation.Intro" xml:space="preserve"><value>Suit, double, twin ve triple oda tipleriyle her konaklama plan&#305;na uygun se&#231;enekler.</value></data>
   <data name="Accommodation.Specs" xml:space="preserve"><value>Oda bilgileri</value></data>
   <data name="Bed.king" xml:space="preserve"><value>King</value></data>
   <data name="Bed.queen" xml:space="preserve"><value>Queen</value></data>
   <data name="Bed.twin" xml:space="preserve"><value>Twin</value></data>
+  <data name="Bed.double" xml:space="preserve"><value>Double</value></data>
+  <data name="Bed.triple" xml:space="preserve"><value>Triple</value></data>
   <data name="Common.All" xml:space="preserve"><value>T&#252;m</value></data>
   <data name="Common.BackToList" xml:space="preserve"><value>Listeye d&#246;n</value></data>
   <data name="Common.BookNow" xml:space="preserve"><value>Rezervasyon</value></data>
@@ -130,26 +132,34 @@
   <data name="Form.Name" xml:space="preserve"><value>Ad Soyad</value></data>
   <data name="Form.Phone" xml:space="preserve"><value>Telefon</value></data>
   <data name="Form.Subject" xml:space="preserve"><value>Konu</value></data>
-  <data name="Gallery.Beach.Cabana.Short" xml:space="preserve"><value>Sahilde &#246;zel cabana noktas&#305;.</value></data>
-  <data name="Gallery.Beach.Cabana.Title" xml:space="preserve"><value>Cabana Alanlar&#305;</value></data>
-  <data name="Gallery.Beach.Sunset.Short" xml:space="preserve"><value>Alt&#305;n saatten geceye uzanan k&#305;y&#305; atmosferi.</value></data>
-  <data name="Gallery.Beach.Sunset.Title" xml:space="preserve"><value>Sunset Beach</value></data>
+  <data name="Gallery.Beach.Cabana.Short" xml:space="preserve"><value>Sahilde g&#252;n boyu kullan&#305;lan &#351;ezlong ve iskele d&#252;zeni.</value></data>
+  <data name="Gallery.Beach.Cabana.Title" xml:space="preserve"><value>Plaj Alan&#305;</value></data>
+  <data name="Gallery.Beach.Sunset.Short" xml:space="preserve"><value>Koylara a&#231;&#305;lan tekne ve yat planlar&#305;ndan kareler.</value></data>
+  <data name="Gallery.Beach.Sunset.Title" xml:space="preserve"><value>Yat Deneyimi</value></data>
   <data name="Gallery.Category.Beach" xml:space="preserve"><value>Plaj</value></data>
   <data name="Gallery.Category.Dining" xml:space="preserve"><value>Yeme-&#304;&#231;me</value></data>
   <data name="Gallery.Category.Hotel" xml:space="preserve"><value>Otel</value></data>
   <data name="Gallery.Category.Rooms" xml:space="preserve"><value>Odalar</value></data>
   <data name="Gallery.Category.Spa" xml:space="preserve"><value>Spa</value></data>
-  <data name="Gallery.Dining.Rooftop.Short" xml:space="preserve"><value>Rooftop gecelerinde &#351;ehir ve deniz silueti.</value></data>
-  <data name="Gallery.Dining.Rooftop.Title" xml:space="preserve"><value>Rooftop Experience</value></data>
-  <data name="Gallery.Dining.Signature.Short" xml:space="preserve"><value>A&#231;&#305;k mutfakta sezonsal servis ritmi.</value></data>
-  <data name="Gallery.Dining.Signature.Title" xml:space="preserve"><value>Signature Dining</value></data>
-  <data name="Gallery.Hotel.Lobby.Short" xml:space="preserve"><value>Lobide sofistike butik atmosfer.</value></data>
-  <data name="Gallery.Hotel.Lobby.Title" xml:space="preserve"><value>Lobi</value></data>
-  <data name="Gallery.Hotel.Terrace.Short" xml:space="preserve"><value>Denize a&#231;&#305;lan sakin teras alan&#305;.</value></data>
-  <data name="Gallery.Hotel.Terrace.Title" xml:space="preserve"><value>Deniz Teras&#305;</value></data>
-  <data name="Gallery.Intro" xml:space="preserve"><value>Otelin farkl&#305; alanlar&#305;ndan se&#231;ili kareler.</value></data>
+  <data name="Gallery.Dining.Rooftop.Short" xml:space="preserve"><value>G&#252;n i&#231;i kullan&#305;ma uygun ferah restoran teras&#305;.</value></data>
+  <data name="Gallery.Dining.Rooftop.Title" xml:space="preserve"><value>A&#231;&#305;k Hava Teras&#305;</value></data>
+  <data name="Gallery.Dining.Signature.Short" xml:space="preserve"><value>A&#231;&#305;k oturma d&#252;zeni ve havuz ba&#351;&#305; servis alan&#305;.</value></data>
+  <data name="Gallery.Dining.Signature.Title" xml:space="preserve"><value>Havuz Ba&#351;&#305; Servis</value></data>
+  <data name="Gallery.Hotel.Lobby.Short" xml:space="preserve"><value>Otelin koyla bulu&#351;tu&#287;u genel g&#246;r&#252;n&#252;m.</value></data>
+  <data name="Gallery.Hotel.Lobby.Title" xml:space="preserve"><value>Hava Manzaras&#305;</value></data>
+  <data name="Gallery.Hotel.Terrace.Short" xml:space="preserve"><value>Ak&#351;am saatlerinde otelin d&#305;&#351; cephe g&#246;r&#252;n&#252;m&#252;.</value></data>
+  <data name="Gallery.Hotel.Terrace.Title" xml:space="preserve"><value>Otel D&#305;&#351; Cephe</value></data>
+  <data name="Gallery.Intro" xml:space="preserve"><value>Otel, odalar, yeme-i&#231;me ve plaj alanlar&#305;ndan se&#231;ili kareler.</value></data>
   <data name="Gallery.Room.Deluxe.Short" xml:space="preserve"><value>Do&#287;al tonlarda premium oda deneyimi.</value></data>
   <data name="Gallery.Room.Deluxe.Title" xml:space="preserve"><value>Deluxe Interior</value></data>
+  <data name="Gallery.Room.Double.Short" xml:space="preserve"><value>&#199;ift ki&#351;ilik konfor odakl&#305; double oda.</value></data>
+  <data name="Gallery.Room.Double.Title" xml:space="preserve"><value>Double Oda</value></data>
+  <data name="Gallery.Room.Suite.Short" xml:space="preserve"><value>Ferah ya&#351;am alan&#305; ve geni&#351; planl&#305; suit oda.</value></data>
+  <data name="Gallery.Room.Suite.Title" xml:space="preserve"><value>Suit Oda</value></data>
+  <data name="Gallery.Room.Triple.Short" xml:space="preserve"><value>&#220;&#231; ki&#351;ilik kullan&#305;ma uygun triple oda d&#252;zeni.</value></data>
+  <data name="Gallery.Room.Triple.Title" xml:space="preserve"><value>Triple Oda</value></data>
+  <data name="Gallery.Room.Twin.Short" xml:space="preserve"><value>Ayr&#305; yatak d&#252;zeniyle esnek twin konaklama.</value></data>
+  <data name="Gallery.Room.Twin.Title" xml:space="preserve"><value>Twin Oda</value></data>
   <data name="Gallery.Room.Villa.Short" xml:space="preserve"><value>Villa ya&#351;am&#305;nda &#246;zel havuz ve geni&#351; teras.</value></data>
   <data name="Gallery.Room.Villa.Title" xml:space="preserve"><value>Private Villa</value></data>
   <data name="Gallery.Spa.Ritual.Short" xml:space="preserve"><value>Rit&#252;el odakl&#305; wellness anlar&#305;.</value></data>
@@ -161,7 +171,7 @@
   <data name="Home.Hero.ImageAlt" xml:space="preserve"><value>Quatro Life G&#252;mbet sahil g&#246;rseli</value></data>
   <data name="Home.Hero.Subtitle" xml:space="preserve"><value>Denize a&#231;&#305;lan modern mimari, sakin servis ritmi ve butik l&#252;ks deneyimi.</value></data>
   <data name="Home.Hero.Title" xml:space="preserve"><value>Bodrumda premium bir ka&#231;&#305;&#351;</value></data>
-  <data name="Home.Quick.Accommodation" xml:space="preserve"><value>Dengeli planlanan odalar, s&#252;itler ve villa se&#231;enekleri</value></data>
+  <data name="Home.Quick.Accommodation" xml:space="preserve"><value>Suit, double, twin ve triple oda se&#231;enekleri</value></data>
   <data name="Home.Quick.Dining" xml:space="preserve"><value>Yerel &#252;r&#252;n odakl&#305; mutfaklar ve sahil deneyimleri</value></data>
   <data name="Home.Quick.Experiences" xml:space="preserve"><value>Tekne, su sporlar&#305;, plaj aktiviteleri ve daha fazlas&#305;</value></data>
   <data name="Home.Quick.Offers" xml:space="preserve"><value>Sezona &#246;zel avantaj paketleri</value></data>
@@ -200,14 +210,22 @@
   <data name="Reservation.Title" xml:space="preserve"><value>Rezervasyon</value></data>
   <data name="Room.Deluxe.Short" xml:space="preserve"><value>Deniz manzaral&#305;, sade ve ferah bir premium oda.</value></data>
   <data name="Room.Deluxe.Title" xml:space="preserve"><value>Deluxe Room</value></data>
+  <data name="Room.Double.Short" xml:space="preserve"><value>&#199;ift ki&#351;ilik yatak d&#252;zeniyle sade ve rahat bir konaklama.</value></data>
+  <data name="Room.Double.Title" xml:space="preserve"><value>Double Oda</value></data>
   <data name="Room.GardenFamily.Short" xml:space="preserve"><value>Aileler i&#231;in geni&#351; ya&#351;am ve bah&#231;eye eri&#351;im.</value></data>
   <data name="Room.GardenFamily.Title" xml:space="preserve"><value>Garden Family Room</value></data>
   <data name="Room.LagoonSuite.Short" xml:space="preserve"><value>Geni&#351; suit planlamas&#305; ve marina manzaras&#305;.</value></data>
   <data name="Room.LagoonSuite.Title" xml:space="preserve"><value>Lagoon Suite</value></data>
   <data name="Room.PremiumVilla.Short" xml:space="preserve"><value>&#214;zel havuzlu villa, y&#252;ksek gizlilik ve geni&#351; teras.</value></data>
   <data name="Room.PremiumVilla.Title" xml:space="preserve"><value>Premium Villa</value></data>
+  <data name="Room.Suite.Short" xml:space="preserve"><value>Geni&#351; oturma alan&#305; ve ferah yerle&#351;imle uzun konaklamalara uygun.</value></data>
+  <data name="Room.Suite.Title" xml:space="preserve"><value>Suit Oda</value></data>
+  <data name="Room.Triple.Short" xml:space="preserve"><value>&#220;&#231; misafire uygun geni&#351; yerle&#351;im ve dengeleyen konfor.</value></data>
+  <data name="Room.Triple.Title" xml:space="preserve"><value>Triple Oda</value></data>
+  <data name="Room.Twin.Short" xml:space="preserve"><value>Ayr&#305; yatakl&#305; plan&#305;yla arkada&#351;lar ve aileler i&#231;in pratik se&#231;im.</value></data>
+  <data name="Room.Twin.Title" xml:space="preserve"><value>Twin Oda</value></data>
   <data name="Season.Message.Summer2026" xml:space="preserve"><value>Yaz 2026 sezonunda se&#231;ili tarihlerde transfer hediyesi.</value></data>
-  <data name="Seo.Accommodation.Description" xml:space="preserve"><value>Bodrumdaki premium odalar, s&#252;itler ve villa se&#231;enekleri.</value></data>
+  <data name="Seo.Accommodation.Description" xml:space="preserve"><value>Bodrumda suit, double, twin ve triple oda se&#231;enekleri.</value></data>
   <data name="Seo.Accommodation.Title" xml:space="preserve"><value>Konaklama</value></data>
   <data name="Seo.Book.Description" xml:space="preserve"><value>Rezervasyon altyap&#305;s&#305; ve m&#252;saitlik y&#246;nlendirmesi.</value></data>
   <data name="Seo.Book.Title" xml:space="preserve"><value>Rezervasyon</value></data>
@@ -222,9 +240,9 @@
   <data name="Seo.Events.Title" xml:space="preserve"><value>Etkinlikler</value></data>
   <data name="Seo.Experiences.Description" xml:space="preserve"><value>Plaj, su sporlar&#305;, yat deneyimi ve aktiviteler.</value></data>
   <data name="Seo.Experiences.Title" xml:space="preserve"><value>Deneyimler</value></data>
-  <data name="Seo.Gallery.Description" xml:space="preserve"><value>Otel, oda, yeme-i&#231;me, plaj ve spa galerisinden se&#231;kiler.</value></data>
+  <data name="Seo.Gallery.Description" xml:space="preserve"><value>Otel, oda, yeme-i&#231;me ve plaj alanlar&#305;ndan se&#231;ili galeri g&#246;rselleri.</value></data>
   <data name="Seo.Gallery.Title" xml:space="preserve"><value>Galeri</value></data>
-  <data name="Seo.Home.Description" xml:space="preserve"><value>Bodrumda butik l&#252;ks konaklama, wellness ve deneyim odakl&#305; otel web sitesi.</value></data>
+  <data name="Seo.Home.Description" xml:space="preserve"><value>Bodrumda butik konaklama, do&#287;rudan rezervasyon ve se&#231;ili deneyim odakl&#305; otel web sitesi.</value></data>
   <data name="Seo.Home.Title" xml:space="preserve"><value>Ana Sayfa</value></data>
   <data name="Seo.Kvkk.Description" xml:space="preserve"><value>KVKK ayd&#305;nlatma metni ve veri i&#351;leme bilgilendirmesi.</value></data>
   <data name="Seo.Kvkk.Title" xml:space="preserve"><value>KVKK</value></data>
@@ -260,7 +278,7 @@
   <data name="Home.Reviews.Item2.Name" xml:space="preserve"><value>Mert K.</value></data>
   <data name="Home.Reviews.Item2.Meta" xml:space="preserve"><value>Lagoon Suite, 2 gece</value></data>
   <data name="Home.Reviews.Item2.Score" xml:space="preserve"><value>9.4 / 10</value></data>
-  <data name="Home.Reviews.Item3.Quote" xml:space="preserve"><value>Plaj servisi ve wellness alanlar&#305; &#231;ok d&#252;zenliydi. Tekrar konaklamay&#305; kesinlikle d&#252;&#351;&#252;n&#252;yoruz.</value></data>
+  <data name="Home.Reviews.Item3.Quote" xml:space="preserve"><value>Plaj servisi ve ortak alanlar &#231;ok d&#252;zenliydi. Tekrar konaklamay&#305; kesinlikle d&#252;&#351;&#252;n&#252;yoruz.</value></data>
   <data name="Home.Reviews.Item3.Name" xml:space="preserve"><value>Selin D.</value></data>
   <data name="Home.Reviews.Item3.Meta" xml:space="preserve"><value>Deluxe Oda, 4 gece</value></data>
   <data name="Home.Reviews.Item3.Score" xml:space="preserve"><value>9.5 / 10</value></data>
@@ -328,8 +346,6 @@
   <data name="Wellness.Spa.Description" xml:space="preserve"><value>Aromaterapi, masaj ve ki&#351;iselle&#351;tirilmi&#351; bak&#305;m paketleri.</value></data>
   <data name="Wellness.Spa.Title" xml:space="preserve"><value>Spa</value></data>
 </root>
-
-
 
 
 

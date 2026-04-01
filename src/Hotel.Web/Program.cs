@@ -1,6 +1,7 @@
 ﻿using System.Globalization;
 using Hotel.Web;
 using Hotel.Web.Services;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Localization.Routing;
 
@@ -26,8 +27,18 @@ builder.Services.AddScoped<IHotelContentService, HotelContentService>();
 builder.Services.AddSingleton<ILanguageRouteService, LanguageRouteService>();
 builder.Services.AddScoped<IBookingUrlResolver, BookingUrlResolver>();
 builder.Services.AddScoped<ISubmissionLogService, JsonSubmissionLogService>();
+builder.Services.Configure<ForwardedHeadersOptions>(options =>
+{
+    options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
+
+    // Render terminates TLS upstream and forwards requests through dynamic proxy IPs.
+    options.KnownNetworks.Clear();
+    options.KnownProxies.Clear();
+});
 
 var app = builder.Build();
+
+app.UseForwardedHeaders();
 
 var supportedCultures = new[]
 {
@@ -84,9 +95,6 @@ app.MapControllerRoute("en-dining-detail", "en/dining/{slug}", new { controller 
 
 app.MapControllerRoute("tr-experiences", "tr/deneyimler", new { controller = "Site", action = "Experiences", culture = "tr" });
 app.MapControllerRoute("en-experiences", "en/experiences", new { controller = "Site", action = "Experiences", culture = "en" });
-
-app.MapControllerRoute("tr-wellness", "tr/wellness", new { controller = "Site", action = "Wellness", culture = "tr" });
-app.MapControllerRoute("en-wellness", "en/wellness", new { controller = "Site", action = "Wellness", culture = "en" });
 
 app.MapControllerRoute("tr-offers", "tr/teklifler", new { controller = "Site", action = "Offers", culture = "tr" });
 app.MapControllerRoute("en-offers", "en/offers", new { controller = "Site", action = "Offers", culture = "en" });

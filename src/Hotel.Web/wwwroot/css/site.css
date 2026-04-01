@@ -144,9 +144,11 @@ textarea:focus-visible {
 }
 
 .brand-logo {
-    width: 290px;
-    height: 102px;
-    object-fit: contain;
+    width: 82px;
+    height: 82px;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 18px;
 }
 
 .brand-name {
@@ -156,9 +158,11 @@ textarea:focus-visible {
 }
 
 .footer-logo {
-    width: 170px;
-    height: 60px;
-    object-fit: contain;
+    width: 82px;
+    height: 82px;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 18px;
 }
 
 .btn-book,
@@ -764,6 +768,13 @@ textarea:focus-visible {
     object-position: center;
 }
 
+.detail-gallery-thumb {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    object-position: center;
+}
+
 .contact-media {
     width: 100%;
     aspect-ratio: 16 / 9;
@@ -828,7 +839,7 @@ textarea:focus-visible {
 
 .site-footer .footer-contact-col .footer-logo {
     display: inline-block;
-    width: auto;
+    width: 82px;
     height: 82px;
     margin: 0;
     flex: 0 0 auto;
@@ -919,8 +930,8 @@ textarea:focus-visible {
     }
 
     .brand-logo {
-        width: 252px;
-        height: 90px;
+        width: 74px;
+        height: 74px;
     }
 
     .header-nav {
@@ -977,18 +988,18 @@ textarea:focus-visible {
     }
 
     .brand-logo {
-        width: 220px;
-        height: 78px;
+        width: 64px;
+        height: 64px;
     }
 
     .footer-logo {
-        width: 148px;
-        height: 54px;
+        width: 64px;
+        height: 64px;
     }
 
     .site-footer .footer-contact-col .footer-logo {
-        width: auto;
-        height: 66px;
+        width: 64px;
+        height: 64px;
     }
 
     .site-footer .footer-contact-inline {

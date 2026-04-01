@@ -17,7 +17,6 @@ public sealed class SeoController(
             "konaklama",
             "yeme-icme",
             "deneyimler",
-            "wellness",
             "teklifler",
             "etkinlikler",
             "galeri",

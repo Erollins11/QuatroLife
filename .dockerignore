@@ -1,0 +1,12 @@
+.git
+.vs
+.dotnet-cli
+bin
+obj
+publish
+Resim
+Video
+run-out*.txt
+run-err*.txt
+**/bin
+**/obj

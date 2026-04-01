@@ -12,7 +12,7 @@
     <div class="container">
         <div class="filter-panel" data-room-filters>
             <div class="row g-3">
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <label for="capacityFilter" class="form-label">@Localizer["Accommodation.Filter.Capacity"]</label>
                     <select id="capacityFilter" class="form-select" data-filter="capacity">
                         <option value="">@Localizer["Common.All"]</option>
@@ -21,39 +21,30 @@
                         <option value="4">4+</option>
                     </select>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <label for="minSizeFilter" class="form-label">@Localizer["Accommodation.Filter.MinSize"]</label>
                     <select id="minSizeFilter" class="form-select" data-filter="min-size">
                         <option value="">@Localizer["Common.All"]</option>
+                        <option value="20">20 m²+</option>
                         <option value="30">30 m²+</option>
                         <option value="40">40 m²+</option>
-                        <option value="60">60 m²+</option>
                     </select>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <label for="viewFilter" class="form-label">@Localizer["Accommodation.Filter.View"]</label>
                     <select id="viewFilter" class="form-select" data-filter="view">
                         <option value="">@Localizer["Common.All"]</option>
                         <option value="sea">@Localizer["View.sea"]</option>
                         <option value="garden">@Localizer["View.garden"]</option>
-                        <option value="marina">@Localizer["View.marina"]</option>
                     </select>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <label for="bedFilter" class="form-label">@Localizer["Accommodation.Filter.Bed"]</label>
                     <select id="bedFilter" class="form-select" data-filter="bed">
                         <option value="">@Localizer["Common.All"]</option>
-                        <option value="king">@Localizer["Bed.king"]</option>
+                        <option value="double">@Localizer["Bed.double"]</option>
                         <option value="twin">@Localizer["Bed.twin"]</option>
-                        <option value="queen">@Localizer["Bed.queen"]</option>
-                    </select>
-                </div>
-                <div class="col-md-2">
-                    <label for="poolFilter" class="form-label">@Localizer["Accommodation.Filter.PrivatePool"]</label>
-                    <select id="poolFilter" class="form-select" data-filter="pool">
-                        <option value="">@Localizer["Common.All"]</option>
-                        <option value="true">@Localizer["Common.Yes"]</option>
-                        <option value="false">@Localizer["Common.No"]</option>
+                        <option value="triple">@Localizer["Bed.triple"]</option>
                     </select>
                 </div>
             </div>
@@ -69,10 +60,9 @@
                 var roomTitle = Localizer[room.TitleKey].Value;
                 var viewValue = Localizer[$"View.{room.ViewType}"].Value;
                 var bedValue = Localizer[$"Bed.{room.BedType}"].Value;
-                var poolValue = room.HasPrivatePool ? Localizer["Common.Yes"].Value : Localizer["Common.No"].Value;
                 var detailUrl = Url.Action("AccommodationDetail", "Site", new { culture = Model.Page.Culture, slug = room.Slug }) ?? "#";
 
-                <div class="col-md-6 col-xl-4 room-card" data-room-item data-capacity="@room.Capacity" data-size="@room.SizeSqm" data-view="@room.ViewType" data-bed="@room.BedType" data-pool="@room.HasPrivatePool.ToString().ToLowerInvariant()">
+                <div class="col-md-6 col-xl-4 room-card" data-room-item data-capacity="@room.Capacity" data-size="@room.SizeSqm" data-view="@room.ViewType" data-bed="@room.BedType">
                     <article class="liquid-card h-100">
                         <div class="liquid-media">
                             <img src="@room.Images.FirstOrDefault()" class="card-img-top" width="640" height="360" alt="@roomTitle" loading="lazy" />
@@ -89,7 +79,6 @@
                                            data-room-capacity="@room.Capacity"
                                            data-room-view="@viewValue"
                                            data-room-bed="@bedValue"
-                                           data-room-pool="@poolValue"
                                            data-room-price="@room.StartingPrice.ToString(System.Globalization.CultureInfo.InvariantCulture)"
                                            data-room-url="@detailUrl" />
                                     <span>@Localizer["Accommodation.Compare.Select"]</span>
@@ -155,7 +144,6 @@
                                 <th>@Localizer["Accommodation.Compare.Col.Capacity"]</th>
                                 <th>@Localizer["Accommodation.Compare.Col.View"]</th>
                                 <th>@Localizer["Accommodation.Compare.Col.Bed"]</th>
-                                <th>@Localizer["Accommodation.Compare.Col.PrivatePool"]</th>
                                 <th>@Localizer["Accommodation.Compare.Col.Action"]</th>
                             </tr>
                         </thead>

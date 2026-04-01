@@ -111,8 +111,7 @@ function setupRoomFilters() {
     capacity: filterRoot.querySelector('[data-filter="capacity"]'),
     minSize: filterRoot.querySelector('[data-filter="min-size"]'),
     view: filterRoot.querySelector('[data-filter="view"]'),
-    bed: filterRoot.querySelector('[data-filter="bed"]'),
-    pool: filterRoot.querySelector('[data-filter="pool"]')
+    bed: filterRoot.querySelector('[data-filter="bed"]')
   };
 
   const applyFilters = () => {
@@ -123,20 +122,17 @@ function setupRoomFilters() {
       const sizeValue = Number(card.getAttribute('data-size') || '0');
       const viewValue = (card.getAttribute('data-view') || '').toLowerCase();
       const bedValue = (card.getAttribute('data-bed') || '').toLowerCase();
-      const poolValue = (card.getAttribute('data-pool') || '').toLowerCase();
 
       const capacityFilter = Number(controls.capacity?.value || '0');
       const minSizeFilter = Number(controls.minSize?.value || '0');
       const viewFilter = (controls.view?.value || '').toLowerCase();
       const bedFilter = (controls.bed?.value || '').toLowerCase();
-      const poolFilter = (controls.pool?.value || '').toLowerCase();
 
       const matches =
         (capacityFilter === 0 || capacityValue >= capacityFilter) &&
         (minSizeFilter === 0 || sizeValue >= minSizeFilter) &&
         (!viewFilter || viewValue === viewFilter) &&
-        (!bedFilter || bedValue === bedFilter) &&
-        (!poolFilter || poolValue === poolFilter);
+        (!bedFilter || bedValue === bedFilter);
 
       card.classList.toggle('d-none', !matches);
       if (matches) {
@@ -180,7 +176,6 @@ function setupRoomComparison() {
     capacity: toggle.getAttribute('data-room-capacity') || '',
     view: toggle.getAttribute('data-room-view') || '',
     bed: toggle.getAttribute('data-room-bed') || '',
-    pool: toggle.getAttribute('data-room-pool') || '',
     price: Number(toggle.getAttribute('data-room-price') || '0'),
     url: toggle.getAttribute('data-room-url') || '#'
   });
@@ -213,7 +208,6 @@ function setupRoomComparison() {
         <td>${room.capacity}</td>
         <td>${room.view}</td>
         <td>${room.bed}</td>
-        <td>${room.pool}</td>
         <td><a class="btn btn-outline-dark btn-sm" href="${room.url}">${detailsLabel}</a></td>
       `;
       compareTable.appendChild(row);

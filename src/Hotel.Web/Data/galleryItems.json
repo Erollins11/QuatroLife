@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "slug": "gallery-hotel-lobby",
     "titleKey": "Gallery.Hotel.Lobby.Title",
@@ -12,23 +12,39 @@
     "titleKey": "Gallery.Hotel.Terrace.Title",
     "shortDescriptionKey": "Gallery.Hotel.Terrace.Short",
     "category": "Hotel",
-    "image": "/img/hotel/contact-location.jpg",
+    "image": "/img/hotel/hotel-exterior-night.jpg",
     "isVideoPlaceholder": false
   },
   {
-    "slug": "gallery-room-deluxe",
-    "titleKey": "Gallery.Room.Deluxe.Title",
-    "shortDescriptionKey": "Gallery.Room.Deluxe.Short",
+    "slug": "gallery-room-suite",
+    "titleKey": "Gallery.Room.Suite.Title",
+    "shortDescriptionKey": "Gallery.Room.Suite.Short",
     "category": "Rooms",
-    "image": "/img/hotel/room-deluxe.jpg",
+    "image": "/img/hotel/room-suite-1.jpg",
     "isVideoPlaceholder": false
   },
   {
-    "slug": "gallery-room-villa",
-    "titleKey": "Gallery.Room.Villa.Title",
-    "shortDescriptionKey": "Gallery.Room.Villa.Short",
+    "slug": "gallery-room-double",
+    "titleKey": "Gallery.Room.Double.Title",
+    "shortDescriptionKey": "Gallery.Room.Double.Short",
     "category": "Rooms",
-    "image": "/img/hotel/room-premium-villa.jpg",
+    "image": "/img/hotel/room-double-1.jpg",
+    "isVideoPlaceholder": false
+  },
+  {
+    "slug": "gallery-room-twin",
+    "titleKey": "Gallery.Room.Twin.Title",
+    "shortDescriptionKey": "Gallery.Room.Twin.Short",
+    "category": "Rooms",
+    "image": "/img/hotel/room-twin-1.jpg",
+    "isVideoPlaceholder": false
+  },
+  {
+    "slug": "gallery-room-triple",
+    "titleKey": "Gallery.Room.Triple.Title",
+    "shortDescriptionKey": "Gallery.Room.Triple.Short",
+    "category": "Rooms",
+    "image": "/img/hotel/room-triple-1.jpg",
     "isVideoPlaceholder": false
   },
   {
@@ -61,22 +77,6 @@
     "shortDescriptionKey": "Gallery.Beach.Sunset.Short",
     "category": "Beach",
     "image": "/img/hotel/experience-yacht.jpg",
-    "isVideoPlaceholder": false
-  },
-  {
-    "slug": "gallery-spa-suite",
-    "titleKey": "Gallery.Spa.Suite.Title",
-    "shortDescriptionKey": "Gallery.Spa.Suite.Short",
-    "category": "Spa",
-    "image": "/img/hotel/wellness-spa.jpg",
-    "isVideoPlaceholder": false
-  },
-  {
-    "slug": "gallery-spa-ritual",
-    "titleKey": "Gallery.Spa.Ritual.Title",
-    "shortDescriptionKey": "Gallery.Spa.Ritual.Short",
-    "category": "Spa",
-    "image": "/img/hotel/wellness-hamam.jpg",
     "isVideoPlaceholder": false
   }
 ]

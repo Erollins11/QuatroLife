@@ -38,10 +38,9 @@ public sealed class SiteController(
             Page = context,
             QuickLinks =
             [
-                new QuickLinkViewModel { TitleKey = "Nav.Accommodation", DescriptionKey = "Home.Quick.Accommodation", Url = languageRouteService.PathFor(context.Culture, "konaklama"), Image = "/img/hotel/room-lagoon-suite.jpg" },
+                new QuickLinkViewModel { TitleKey = "Nav.Accommodation", DescriptionKey = "Home.Quick.Accommodation", Url = languageRouteService.PathFor(context.Culture, "konaklama"), Image = "/img/hotel/room-suite-1.jpg" },
                 new QuickLinkViewModel { TitleKey = "Nav.Dining", DescriptionKey = "Home.Quick.Dining", Url = languageRouteService.PathFor(context.Culture, "yeme-icme"), Image = "/img/hotel/dining-aura-main.jpg" },
                 new QuickLinkViewModel { TitleKey = "Nav.Experiences", DescriptionKey = "Home.Quick.Experiences", Url = languageRouteService.PathFor(context.Culture, "deneyimler"), Image = "/img/hotel/experience-yacht.jpg" },
-                new QuickLinkViewModel { TitleKey = "Nav.Wellness", DescriptionKey = "Home.Quick.Wellness", Url = languageRouteService.PathFor(context.Culture, "wellness"), Image = "/img/hotel/wellness-spa.jpg" },
                 new QuickLinkViewModel { TitleKey = "Nav.Offers", DescriptionKey = "Home.Quick.Offers", Url = languageRouteService.PathFor(context.Culture, "teklifler"), Image = "/img/hotel/experience-beach-pool.jpg" }
             ],
             RoomRateOptions = rooms
@@ -62,7 +61,7 @@ public sealed class SiteController(
     [HttpGet]
     public async Task<IActionResult> Accommodation(string culture, CancellationToken cancellationToken)
     {
-        var context = CreateContext(culture, "Seo.Accommodation.Title", "Seo.Accommodation.Description", "/img/hotel/room-deluxe.jpg");
+        var context = CreateContext(culture, "Seo.Accommodation.Title", "Seo.Accommodation.Description", "/img/hotel/room-suite-1.jpg");
         var rooms = await hotelContentService.GetRoomsAsync(cancellationToken);
         return View(new AccommodationPageViewModel { Page = context, Rooms = rooms });
     }
@@ -76,7 +75,7 @@ public sealed class SiteController(
             return NotFound();
         }
 
-        var context = CreateContext(culture, room.TitleKey, room.ShortDescriptionKey, room.Images.FirstOrDefault() ?? "/img/hotel/room-deluxe.jpg");
+        var context = CreateContext(culture, room.TitleKey, room.ShortDescriptionKey, room.Images.FirstOrDefault() ?? "/img/hotel/room-suite-1.jpg");
         return View(new RoomDetailPageViewModel { Page = context, Room = room });
     }
 
@@ -105,13 +104,6 @@ public sealed class SiteController(
     public IActionResult Experiences(string culture)
     {
         var context = CreateContext(culture, "Seo.Experiences.Title", "Seo.Experiences.Description", "/img/hotel/experience-yacht.jpg");
-        return View(new StandardPageViewModel { Page = context });
-    }
-
-    [HttpGet]
-    public IActionResult Wellness(string culture)
-    {
-        var context = CreateContext(culture, "Seo.Wellness.Title", "Seo.Wellness.Description", "/img/hotel/wellness-spa.jpg");
         return View(new StandardPageViewModel { Page = context });
     }
 

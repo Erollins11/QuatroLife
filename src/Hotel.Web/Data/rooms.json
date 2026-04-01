@@ -1,58 +1,78 @@
-﻿[
+[
   {
-    "slug": "deluxe-room",
-    "titleKey": "Room.Deluxe.Title",
-    "shortDescriptionKey": "Room.Deluxe.Short",
-    "featuresKeys": ["Feature.SeaView", "Feature.PrivateBalcony", "Feature.SmartTv"],
-    "images": ["/img/hotel/room-deluxe.jpg"],
-    "capacity": 2,
-    "sizeSqm": 34,
-    "bedType": "king",
+    "slug": "suite",
+    "titleKey": "Room.Suite.Title",
+    "shortDescriptionKey": "Room.Suite.Short",
+    "featuresKeys": ["Feature.SuiteLiving", "Feature.PrivateBalcony", "Feature.RainShower"],
+    "images": [
+      "/img/hotel/room-suite-1.jpg",
+      "/img/hotel/room-suite-2.jpg",
+      "/img/hotel/room-suite-3.jpg",
+      "/img/hotel/room-suite-4.jpg",
+      "/img/hotel/room-suite-5.jpg",
+      "/img/hotel/room-suite-6.jpg",
+      "/img/hotel/room-suite-7.jpg",
+      "/img/hotel/room-suite-8.jpg"
+    ],
+    "capacity": 4,
+    "sizeSqm": 46,
+    "bedType": "double",
     "viewType": "sea",
     "isVilla": false,
     "hasPrivatePool": false,
-    "startingPrice": 6900
+    "startingPrice": 7900
   },
   {
-    "slug": "lagoon-suite",
-    "titleKey": "Room.LagoonSuite.Title",
-    "shortDescriptionKey": "Room.LagoonSuite.Short",
-    "featuresKeys": ["Feature.SuiteLiving", "Feature.RainShower", "Feature.Espresso"],
-    "images": ["/img/hotel/room-lagoon-suite.jpg"],
-    "capacity": 3,
-    "sizeSqm": 48,
-    "bedType": "king",
-    "viewType": "marina",
+    "slug": "double",
+    "titleKey": "Room.Double.Title",
+    "shortDescriptionKey": "Room.Double.Short",
+    "featuresKeys": ["Feature.PrivateBalcony", "Feature.SmartTv", "Feature.Espresso"],
+    "images": [
+      "/img/hotel/room-double-1.jpg",
+      "/img/hotel/room-double-2.jpg"
+    ],
+    "capacity": 2,
+    "sizeSqm": 24,
+    "bedType": "double",
+    "viewType": "garden",
     "isVilla": false,
     "hasPrivatePool": false,
-    "startingPrice": 8450
+    "startingPrice": 5400
   },
   {
-    "slug": "garden-family",
-    "titleKey": "Room.GardenFamily.Title",
-    "shortDescriptionKey": "Room.GardenFamily.Short",
-    "featuresKeys": ["Feature.GardenAccess", "Feature.TwinOption", "Feature.DoubleVanity"],
-    "images": ["/img/hotel/room-garden-family.jpg"],
-    "capacity": 4,
-    "sizeSqm": 56,
+    "slug": "twin",
+    "titleKey": "Room.Twin.Title",
+    "shortDescriptionKey": "Room.Twin.Short",
+    "featuresKeys": ["Feature.TwinOption", "Feature.SmartTv", "Feature.RainShower"],
+    "images": [
+      "/img/hotel/room-twin-1.jpg",
+      "/img/hotel/room-twin-2.jpg",
+      "/img/hotel/room-twin-3.jpg",
+      "/img/hotel/room-twin-4.jpg"
+    ],
+    "capacity": 2,
+    "sizeSqm": 28,
     "bedType": "twin",
     "viewType": "garden",
     "isVilla": false,
     "hasPrivatePool": false,
-    "startingPrice": 9650
+    "startingPrice": 5900
   },
   {
-    "slug": "premium-villa",
-    "titleKey": "Room.PremiumVilla.Title",
-    "shortDescriptionKey": "Room.PremiumVilla.Short",
-    "featuresKeys": ["Feature.PrivatePool", "Feature.Butler", "Feature.SunsetDeck"],
-    "images": ["/img/hotel/room-premium-villa.jpg"],
-    "capacity": 4,
-    "sizeSqm": 88,
-    "bedType": "queen",
+    "slug": "triple",
+    "titleKey": "Room.Triple.Title",
+    "shortDescriptionKey": "Room.Triple.Short",
+    "featuresKeys": ["Feature.DoubleVanity", "Feature.PrivateBalcony", "Feature.SeaView"],
+    "images": [
+      "/img/hotel/room-triple-1.jpg",
+      "/img/hotel/room-triple-2.jpg"
+    ],
+    "capacity": 3,
+    "sizeSqm": 34,
+    "bedType": "triple",
     "viewType": "sea",
-    "isVilla": true,
-    "hasPrivatePool": true,
-    "startingPrice": 16900
+    "isVilla": false,
+    "hasPrivatePool": false,
+    "startingPrice": 6600
   }
 ]

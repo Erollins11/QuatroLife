@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "slug": "early-booking",
     "titleKey": "Offer.EarlyBooking.Title",
@@ -11,16 +11,16 @@
     "slug": "long-stay",
     "titleKey": "Offer.LongStay.Title",
     "shortDescriptionKey": "Offer.LongStay.Short",
-    "featuresKeys": ["Feature.FreeTransfer", "Feature.LaundryCredit", "Feature.SpaCredit"],
-    "images": ["/img/hotel/contact-location.jpg"],
+    "featuresKeys": ["Feature.FreeTransfer", "Feature.LaundryCredit", "Feature.BreakfastIncluded"],
+    "images": ["/img/hotel/room-suite-3.jpg"],
     "validityKey": "Offer.LongStay.Validity"
   },
   {
     "slug": "honeymoon-escape",
     "titleKey": "Offer.Honeymoon.Title",
     "shortDescriptionKey": "Offer.Honeymoon.Short",
-    "featuresKeys": ["Feature.CoupleMassage", "Feature.PrivateDinner", "Feature.SparklingWelcome"],
-    "images": ["/img/hotel/wellness-spa.jpg"],
+    "featuresKeys": ["Feature.PrivateDinner", "Feature.SparklingWelcome", "Feature.BreakfastIncluded"],
+    "images": ["/img/hotel/experience-yacht.jpg"],
     "validityKey": "Offer.Honeymoon.Validity"
   }
 ]

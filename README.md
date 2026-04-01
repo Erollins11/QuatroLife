@@ -60,6 +60,16 @@ dotnet test
 dotnet publish -c Release -o ./publish
 ```
 
+## Render Import
+
+Repo Render'a blueprint ile import edilecekse kokteki `render.yaml` dosyasini kullanin. Guncel Render native runtime listesinde .NET olmadigi icin deploy Dockerfile uzerinden yapilandirildi.
+
+- Runtime: `docker`
+- Dockerfile: `./Dockerfile`
+- Port: `PORT=10000`
+- Health check: `/tr`
+- Env: `ASPNETCORE_ENVIRONMENT=Production`, opsiyonel `BOOKING_URL`
+
 ## Konfigurasyon
 
 `src/Hotel.Web/appsettings.json`:
@@ -85,8 +95,8 @@ BOOKING_URL bos ise butonlar `/{culture}/rezervasyon` veya `/{culture}/book` fal
 Varsayilan dil `tr`.
 
 - `/` -> `/tr` redirect
-- TR: `/tr/konaklama`, `/tr/yeme-icme`, `/tr/deneyimler`, `/tr/wellness`, `/tr/teklifler`, `/tr/etkinlikler`, `/tr/galeri`, `/tr/iletisim`
-- EN: `/en/accommodation`, `/en/dining`, `/en/experiences`, `/en/wellness`, `/en/offers`, `/en/events`, `/en/gallery`, `/en/contact`
+- TR: `/tr/konaklama`, `/tr/yeme-icme`, `/tr/deneyimler`, `/tr/teklifler`, `/tr/etkinlikler`, `/tr/galeri`, `/tr/iletisim`
+- EN: `/en/accommodation`, `/en/dining`, `/en/experiences`, `/en/offers`, `/en/events`, `/en/gallery`, `/en/contact`
 
 Ek:
 
@@ -111,4 +121,4 @@ Ek:
 
 ## Not
 
-Bu calisma ortaminda .NET SDK kurulu olmadigi icin `dotnet restore/build/run/test` komutlari burada calistirilamadi. Proje dosyalari SDK kurulu bir makinede dogrulanmalidir.
+Bu calisma ortaminda dogrulama komutlari calistirilabilir durumdadir; deploy oncesi `dotnet restore`, `dotnet build -c Release` ve mumkunse `dotnet test` ile kontrol edilmelidir.

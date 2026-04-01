@@ -26,11 +26,13 @@
   <data name="Accommodation.Filter.PrivatePool" xml:space="preserve"><value>Private pool</value></data>
   <data name="Accommodation.Filter.Title" xml:space="preserve"><value>Room filters</value></data>
   <data name="Accommodation.Filter.View" xml:space="preserve"><value>View</value></data>
-  <data name="Accommodation.Intro" xml:space="preserve"><value>Sunlit rooms and suites designed for a premium Bodrum stay.</value></data>
+  <data name="Accommodation.Intro" xml:space="preserve"><value>Suite, double, twin, and triple rooms shaped for different stay plans.</value></data>
   <data name="Accommodation.Specs" xml:space="preserve"><value>Room details</value></data>
   <data name="Bed.king" xml:space="preserve"><value>King</value></data>
   <data name="Bed.queen" xml:space="preserve"><value>Queen</value></data>
   <data name="Bed.twin" xml:space="preserve"><value>Twin</value></data>
+  <data name="Bed.double" xml:space="preserve"><value>Double</value></data>
+  <data name="Bed.triple" xml:space="preserve"><value>Triple</value></data>
   <data name="Common.All" xml:space="preserve"><value>All</value></data>
   <data name="Common.BackToList" xml:space="preserve"><value>Back to list</value></data>
   <data name="Common.BookNow" xml:space="preserve"><value>Check availability</value></data>
@@ -130,26 +132,34 @@
   <data name="Form.Name" xml:space="preserve"><value>Full name</value></data>
   <data name="Form.Phone" xml:space="preserve"><value>Phone</value></data>
   <data name="Form.Subject" xml:space="preserve"><value>Subject</value></data>
-  <data name="Gallery.Beach.Cabana.Short" xml:space="preserve"><value>Private cabana moments by the sea.</value></data>
-  <data name="Gallery.Beach.Cabana.Title" xml:space="preserve"><value>Cabana Areas</value></data>
-  <data name="Gallery.Beach.Sunset.Short" xml:space="preserve"><value>Coastal ambience from golden hour to night.</value></data>
-  <data name="Gallery.Beach.Sunset.Title" xml:space="preserve"><value>Sunset Beach</value></data>
+  <data name="Gallery.Beach.Cabana.Short" xml:space="preserve"><value>Sun-lounger and pier setup along the shoreline.</value></data>
+  <data name="Gallery.Beach.Cabana.Title" xml:space="preserve"><value>Beachfront</value></data>
+  <data name="Gallery.Beach.Sunset.Short" xml:space="preserve"><value>Moments from boat and yacht plans across the bays.</value></data>
+  <data name="Gallery.Beach.Sunset.Title" xml:space="preserve"><value>Yacht Experience</value></data>
   <data name="Gallery.Category.Beach" xml:space="preserve"><value>Beach</value></data>
   <data name="Gallery.Category.Dining" xml:space="preserve"><value>Dining</value></data>
   <data name="Gallery.Category.Hotel" xml:space="preserve"><value>Hotel</value></data>
   <data name="Gallery.Category.Rooms" xml:space="preserve"><value>Rooms</value></data>
   <data name="Gallery.Category.Spa" xml:space="preserve"><value>Spa</value></data>
-  <data name="Gallery.Dining.Rooftop.Short" xml:space="preserve"><value>Rooftop evenings with city and sea skyline.</value></data>
-  <data name="Gallery.Dining.Rooftop.Title" xml:space="preserve"><value>Rooftop Experience</value></data>
-  <data name="Gallery.Dining.Signature.Short" xml:space="preserve"><value>Seasonal rhythm in an open-kitchen setting.</value></data>
-  <data name="Gallery.Dining.Signature.Title" xml:space="preserve"><value>Signature Dining</value></data>
-  <data name="Gallery.Hotel.Lobby.Short" xml:space="preserve"><value>Boutique luxury atmosphere in the lobby.</value></data>
-  <data name="Gallery.Hotel.Lobby.Title" xml:space="preserve"><value>Lobby</value></data>
-  <data name="Gallery.Hotel.Terrace.Short" xml:space="preserve"><value>Calm terrace opening to the sea.</value></data>
-  <data name="Gallery.Hotel.Terrace.Title" xml:space="preserve"><value>Sea Terrace</value></data>
-  <data name="Gallery.Intro" xml:space="preserve"><value>Curated visuals across hotel, rooms, dining, beach, and spa.</value></data>
+  <data name="Gallery.Dining.Rooftop.Short" xml:space="preserve"><value>Spacious restaurant terrace for all-day use.</value></data>
+  <data name="Gallery.Dining.Rooftop.Title" xml:space="preserve"><value>Open-Air Terrace</value></data>
+  <data name="Gallery.Dining.Signature.Short" xml:space="preserve"><value>Open seating and poolside service atmosphere.</value></data>
+  <data name="Gallery.Dining.Signature.Title" xml:space="preserve"><value>Poolside Service</value></data>
+  <data name="Gallery.Hotel.Lobby.Short" xml:space="preserve"><value>An overall view of the hotel meeting the bay.</value></data>
+  <data name="Gallery.Hotel.Lobby.Title" xml:space="preserve"><value>Aerial View</value></data>
+  <data name="Gallery.Hotel.Terrace.Short" xml:space="preserve"><value>Evening exterior view of the hotel facade.</value></data>
+  <data name="Gallery.Hotel.Terrace.Title" xml:space="preserve"><value>Hotel Exterior</value></data>
+  <data name="Gallery.Intro" xml:space="preserve"><value>Curated visuals across the hotel, rooms, dining, and beach.</value></data>
   <data name="Gallery.Room.Deluxe.Short" xml:space="preserve"><value>Premium room mood in natural tones.</value></data>
   <data name="Gallery.Room.Deluxe.Title" xml:space="preserve"><value>Deluxe Interior</value></data>
+  <data name="Gallery.Room.Double.Short" xml:space="preserve"><value>Double-room comfort designed for two guests.</value></data>
+  <data name="Gallery.Room.Double.Title" xml:space="preserve"><value>Double Room</value></data>
+  <data name="Gallery.Room.Suite.Short" xml:space="preserve"><value>Spacious suite layout with an expanded living zone.</value></data>
+  <data name="Gallery.Room.Suite.Title" xml:space="preserve"><value>Suite Room</value></data>
+  <data name="Gallery.Room.Triple.Short" xml:space="preserve"><value>Three-guest layout with balanced room comfort.</value></data>
+  <data name="Gallery.Room.Triple.Title" xml:space="preserve"><value>Triple Room</value></data>
+  <data name="Gallery.Room.Twin.Short" xml:space="preserve"><value>Flexible twin setup for shared stays.</value></data>
+  <data name="Gallery.Room.Twin.Title" xml:space="preserve"><value>Twin Room</value></data>
   <data name="Gallery.Room.Villa.Short" xml:space="preserve"><value>Private villa life with pool and generous terrace.</value></data>
   <data name="Gallery.Room.Villa.Title" xml:space="preserve"><value>Private Villa</value></data>
   <data name="Gallery.Spa.Ritual.Short" xml:space="preserve"><value>Ritual-led wellness moments.</value></data>
@@ -161,7 +171,7 @@
   <data name="Home.Hero.ImageAlt" xml:space="preserve"><value>Quatro Life Gumbet seaside view</value></data>
   <data name="Home.Hero.Subtitle" xml:space="preserve"><value>Sea-facing architecture, calm service rhythm, and boutique luxury.</value></data>
   <data name="Home.Hero.Title" xml:space="preserve"><value>A premium Bodrum retreat</value></data>
-  <data name="Home.Quick.Accommodation" xml:space="preserve"><value>Balanced room, suite, and villa options</value></data>
+  <data name="Home.Quick.Accommodation" xml:space="preserve"><value>Suite, double, twin, and triple room options</value></data>
   <data name="Home.Quick.Dining" xml:space="preserve"><value>Local-produce dining and seaside venues</value></data>
   <data name="Home.Quick.Experiences" xml:space="preserve"><value>Yacht trips, water sports, and beach moments</value></data>
   <data name="Home.Quick.Offers" xml:space="preserve"><value>Seasonal booking advantages</value></data>
@@ -200,14 +210,22 @@
   <data name="Reservation.Title" xml:space="preserve"><value>Reservation</value></data>
   <data name="Room.Deluxe.Short" xml:space="preserve"><value>Sea-facing premium room with clean and airy layout.</value></data>
   <data name="Room.Deluxe.Title" xml:space="preserve"><value>Deluxe Room</value></data>
+  <data name="Room.Double.Short" xml:space="preserve"><value>A simple and comfortable stay with a double-bed layout.</value></data>
+  <data name="Room.Double.Title" xml:space="preserve"><value>Double Room</value></data>
   <data name="Room.GardenFamily.Short" xml:space="preserve"><value>Spacious family layout with direct garden access.</value></data>
   <data name="Room.GardenFamily.Title" xml:space="preserve"><value>Garden Family Room</value></data>
   <data name="Room.LagoonSuite.Short" xml:space="preserve"><value>Expanded suite planning with marina views.</value></data>
   <data name="Room.LagoonSuite.Title" xml:space="preserve"><value>Lagoon Suite</value></data>
   <data name="Room.PremiumVilla.Short" xml:space="preserve"><value>Private-pool villa with high privacy and broad deck.</value></data>
   <data name="Room.PremiumVilla.Title" xml:space="preserve"><value>Premium Villa</value></data>
+  <data name="Room.Suite.Short" xml:space="preserve"><value>Designed for longer stays with a spacious sitting area and airy plan.</value></data>
+  <data name="Room.Suite.Title" xml:space="preserve"><value>Suite Room</value></data>
+  <data name="Room.Triple.Short" xml:space="preserve"><value>Balanced comfort with a layout suited to three guests.</value></data>
+  <data name="Room.Triple.Title" xml:space="preserve"><value>Triple Room</value></data>
+  <data name="Room.Twin.Short" xml:space="preserve"><value>Practical twin-bed plan for friends and family stays.</value></data>
+  <data name="Room.Twin.Title" xml:space="preserve"><value>Twin Room</value></data>
   <data name="Season.Message.Summer2026" xml:space="preserve"><value>Summer 2026: complimentary transfer on selected dates.</value></data>
-  <data name="Seo.Accommodation.Description" xml:space="preserve"><value>Premium room, suite, and villa options in Bodrum.</value></data>
+  <data name="Seo.Accommodation.Description" xml:space="preserve"><value>Suite, double, twin, and triple room options in Bodrum.</value></data>
   <data name="Seo.Accommodation.Title" xml:space="preserve"><value>Accommodation</value></data>
   <data name="Seo.Book.Description" xml:space="preserve"><value>Booking fallback and availability routing details.</value></data>
   <data name="Seo.Book.Title" xml:space="preserve"><value>Reservation</value></data>
@@ -222,7 +240,7 @@
   <data name="Seo.Events.Title" xml:space="preserve"><value>Events</value></data>
   <data name="Seo.Experiences.Description" xml:space="preserve"><value>Beach, water sports, yacht trips, and activities.</value></data>
   <data name="Seo.Experiences.Title" xml:space="preserve"><value>Experiences</value></data>
-  <data name="Seo.Gallery.Description" xml:space="preserve"><value>Curated gallery for hotel, rooms, dining, beach, and spa.</value></data>
+  <data name="Seo.Gallery.Description" xml:space="preserve"><value>Curated gallery for the hotel, rooms, dining, and beach.</value></data>
   <data name="Seo.Gallery.Title" xml:space="preserve"><value>Gallery</value></data>
   <data name="Seo.Home.Description" xml:space="preserve"><value>Boutique luxury hotel in Bodrum focused on direct booking and clear concept.</value></data>
   <data name="Seo.Home.Title" xml:space="preserve"><value>Home</value></data>
@@ -270,7 +288,7 @@
   <data name="Home.Reviews.Item2.Name" xml:space="preserve"><value>Mert K.</value></data>
   <data name="Home.Reviews.Item2.Meta" xml:space="preserve"><value>Lagoon Suite, 2 nights</value></data>
   <data name="Home.Reviews.Item2.Score" xml:space="preserve"><value>9.4 / 10</value></data>
-  <data name="Home.Reviews.Item3.Quote" xml:space="preserve"><value>Beach service and wellness areas were very well organized. We would definitely stay again.</value></data>
+  <data name="Home.Reviews.Item3.Quote" xml:space="preserve"><value>Beach service and common areas were very well organized. We would definitely stay again.</value></data>
   <data name="Home.Reviews.Item3.Name" xml:space="preserve"><value>Selin D.</value></data>
   <data name="Home.Reviews.Item3.Meta" xml:space="preserve"><value>Deluxe Room, 4 nights</value></data>
   <data name="Home.Reviews.Item3.Score" xml:space="preserve"><value>9.5 / 10</value></data>
@@ -328,8 +346,6 @@
   <data name="Accommodation.Compare.Col.Action" xml:space="preserve"><value>Details</value></data>
   <data name="Accommodation.Compare.MaxMessage" xml:space="preserve"><value>You can compare up to 3 rooms.</value></data>
 </root>
-
-
 
 
 

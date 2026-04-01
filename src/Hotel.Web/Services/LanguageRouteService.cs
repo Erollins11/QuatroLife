@@ -7,7 +7,6 @@ public sealed class LanguageRouteService : ILanguageRouteService
         ["konaklama"] = "accommodation",
         ["yeme-icme"] = "dining",
         ["deneyimler"] = "experiences",
-        ["wellness"] = "wellness",
         ["teklifler"] = "offers",
         ["etkinlikler"] = "events",
         ["galeri"] = "gallery",

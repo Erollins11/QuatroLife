@@ -26,7 +26,6 @@
                             <li><strong>@Localizer["Accommodation.Filter.MinSize"]:</strong> @Model.Room.SizeSqm m²</li>
                             <li><strong>@Localizer["Accommodation.Filter.Bed"]:</strong> @Localizer[$"Bed.{Model.Room.BedType}"]</li>
                             <li><strong>@Localizer["Accommodation.Filter.View"]:</strong> @Localizer[$"View.{Model.Room.ViewType}"]</li>
-                            <li><strong>@Localizer["Accommodation.Filter.PrivatePool"]:</strong> @(Model.Room.HasPrivatePool ? Localizer["Common.Yes"] : Localizer["Common.No"])</li>
                         </ul>
                         <h3 class="h6">@Localizer["Accommodation.Features"]</h3>
                         <ul class="feature-list mb-4">
@@ -40,6 +39,16 @@
                 </article>
             </div>
         </div>
+        @if (Model.Room.Images.Count > 1)
+        {
+            <div class="row g-3 mt-1">
+                @for (var i = 1; i < Model.Room.Images.Count; i++)
+                {
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="@Model.Room.Images[i]" class="img-fluid rounded-4 shadow-sm detail-gallery-thumb" width="640" height="360" alt="@Localizer[Model.Room.TitleKey]" loading="lazy" />
+                    </div>
+                }
+            </div>
+        }
     </div>
 </section>
-
