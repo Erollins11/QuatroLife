@@ -767,6 +767,7 @@ textarea:focus-visible {
     aspect-ratio: 16 / 10;
     object-fit: cover;
     object-position: center;
+    display: block;
 }
 
 .detail-gallery-thumb {
@@ -774,6 +775,47 @@ textarea:focus-visible {
     aspect-ratio: 16 / 10;
     object-fit: cover;
     object-position: center;
+    display: block;
+}
+
+.detail-media-trigger,
+.detail-gallery-trigger {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    display: block;
+    cursor: zoom-in;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+}
+
+.detail-media-trigger {
+    border-radius: 1.5rem;
+}
+
+.detail-gallery-trigger {
+    border-radius: 1rem;
+}
+
+.detail-media-trigger::before,
+.detail-gallery-trigger::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(7, 26, 52, 0.02), rgba(7, 26, 52, 0.2));
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.detail-media-trigger:hover::before,
+.detail-media-trigger:focus-visible::before,
+.detail-gallery-trigger:hover::before,
+.detail-gallery-trigger:focus-visible::before {
+    opacity: 1;
 }
 
 .contact-media {
@@ -1238,5 +1280,4 @@ body.gallery-lightbox-open {
     .gallery-lightbox-nav-next {
         right: 0.75rem;
     }
-}
 }

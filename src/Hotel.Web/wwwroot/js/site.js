@@ -291,7 +291,7 @@ function setupGalleryLightbox() {
   const getVisibleTriggers = () =>
     triggers.filter((trigger) => {
       const item = trigger.closest('[data-gallery-item]');
-      return item && !item.classList.contains('d-none');
+      return !item || !item.classList.contains('d-none');
     });
 
   const renderTrigger = (trigger) => {
