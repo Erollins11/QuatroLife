@@ -150,6 +150,11 @@
   <data name="Gallery.Hotel.Terrace.Short" xml:space="preserve"><value>Evening exterior view of the hotel facade.</value></data>
   <data name="Gallery.Hotel.Terrace.Title" xml:space="preserve"><value>Hotel Exterior</value></data>
   <data name="Gallery.Intro" xml:space="preserve"><value>Curated visuals across the hotel, rooms, dining, and beach.</value></data>
+  <data name="Gallery.Lightbox.Badge" xml:space="preserve"><value>View full size</value></data>
+  <data name="Gallery.Lightbox.Close" xml:space="preserve"><value>Close gallery</value></data>
+  <data name="Gallery.Lightbox.Next" xml:space="preserve"><value>Next image</value></data>
+  <data name="Gallery.Lightbox.Open" xml:space="preserve"><value>Open {0} image</value></data>
+  <data name="Gallery.Lightbox.Previous" xml:space="preserve"><value>Previous image</value></data>
   <data name="Gallery.Room.Deluxe.Short" xml:space="preserve"><value>Premium room mood in natural tones.</value></data>
   <data name="Gallery.Room.Deluxe.Title" xml:space="preserve"><value>Deluxe Interior</value></data>
   <data name="Gallery.Room.Double.Short" xml:space="preserve"><value>Double-room comfort designed for two guests.</value></data>

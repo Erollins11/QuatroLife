@@ -4,6 +4,7 @@
   setupRoomFilters();
   setupRoomComparison();
   setupGalleryFilters();
+  setupGalleryLightbox();
 });
 
 function setupCookieConsent() {
@@ -266,5 +267,123 @@ function setupGalleryFilters() {
         item.classList.toggle('d-none', !isVisible);
       });
     });
+  });
+}
+
+function setupGalleryLightbox() {
+  const lightbox = document.querySelector('[data-gallery-lightbox]');
+  const image = lightbox?.querySelector('[data-gallery-lightbox-image]');
+  const count = lightbox?.querySelector('[data-gallery-lightbox-count]');
+  const title = lightbox?.querySelector('#gallery-lightbox-title');
+  const description = lightbox?.querySelector('#gallery-lightbox-description');
+  const previousButton = lightbox?.querySelector('[data-gallery-prev]');
+  const nextButton = lightbox?.querySelector('[data-gallery-next]');
+  const closeButtons = lightbox ? Array.from(lightbox.querySelectorAll('[data-gallery-close]')) : [];
+  const triggers = Array.from(document.querySelectorAll('[data-gallery-open]'));
+
+  if (!lightbox || !image || !count || !title || !description || !previousButton || !nextButton || triggers.length === 0) {
+    return;
+  }
+
+  let activeTrigger = null;
+  let lastFocusedElement = null;
+
+  const getVisibleTriggers = () =>
+    triggers.filter((trigger) => {
+      const item = trigger.closest('[data-gallery-item]');
+      return item && !item.classList.contains('d-none');
+    });
+
+  const renderTrigger = (trigger) => {
+    const visibleTriggers = getVisibleTriggers();
+    const currentIndex = visibleTriggers.indexOf(trigger);
+    const imageSource = trigger.getAttribute('data-gallery-image') || '';
+    const imageTitle = trigger.getAttribute('data-gallery-title') || '';
+    const imageDescription = trigger.getAttribute('data-gallery-description') || '';
+
+    activeTrigger = trigger;
+    image.src = imageSource;
+    image.alt = imageTitle;
+    title.textContent = imageTitle;
+    description.textContent = imageDescription;
+    description.hidden = imageDescription.length === 0;
+    count.textContent = currentIndex >= 0 ? `${currentIndex + 1} / ${visibleTriggers.length}` : '';
+  };
+
+  const openLightbox = (trigger) => {
+    lastFocusedElement = document.activeElement;
+    lightbox.hidden = false;
+    lightbox.classList.add('is-open');
+    document.body.classList.add('gallery-lightbox-open');
+    renderTrigger(trigger);
+
+    const primaryCloseButton = closeButtons[0];
+    if (primaryCloseButton instanceof HTMLElement) {
+      primaryCloseButton.focus();
+    }
+  };
+
+  const closeLightbox = () => {
+    if (lightbox.hidden) {
+      return;
+    }
+
+    lightbox.hidden = true;
+    lightbox.classList.remove('is-open');
+    document.body.classList.remove('gallery-lightbox-open');
+
+    if (activeTrigger instanceof HTMLElement) {
+      activeTrigger.focus();
+    } else if (lastFocusedElement instanceof HTMLElement) {
+      lastFocusedElement.focus();
+    }
+  };
+
+  const moveBy = (step) => {
+    const visibleTriggers = getVisibleTriggers();
+    if (visibleTriggers.length === 0) {
+      return;
+    }
+
+    const currentIndex = activeTrigger ? visibleTriggers.indexOf(activeTrigger) : 0;
+    const safeIndex = currentIndex >= 0 ? currentIndex : 0;
+    const nextIndex = (safeIndex + step + visibleTriggers.length) % visibleTriggers.length;
+    renderTrigger(visibleTriggers[nextIndex]);
+  };
+
+  triggers.forEach((trigger) => {
+    trigger.addEventListener('click', () => {
+      openLightbox(trigger);
+    });
+  });
+
+  closeButtons.forEach((button) => {
+    button.addEventListener('click', closeLightbox);
+  });
+
+  previousButton.addEventListener('click', () => moveBy(-1));
+  nextButton.addEventListener('click', () => moveBy(1));
+
+  document.addEventListener('keydown', (event) => {
+    if (lightbox.hidden) {
+      return;
+    }
+
+    if (event.key === 'Escape') {
+      event.preventDefault();
+      closeLightbox();
+      return;
+    }
+
+    if (event.key === 'ArrowLeft') {
+      event.preventDefault();
+      moveBy(-1);
+      return;
+    }
+
+    if (event.key === 'ArrowRight') {
+      event.preventDefault();
+      moveBy(1);
+    }
   });
 }

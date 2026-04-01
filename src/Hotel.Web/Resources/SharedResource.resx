@@ -150,6 +150,11 @@
   <data name="Gallery.Hotel.Terrace.Short" xml:space="preserve"><value>Ak&#351;am saatlerinde otelin d&#305;&#351; cephe g&#246;r&#252;n&#252;m&#252;.</value></data>
   <data name="Gallery.Hotel.Terrace.Title" xml:space="preserve"><value>Otel D&#305;&#351; Cephe</value></data>
   <data name="Gallery.Intro" xml:space="preserve"><value>Otel, odalar, yeme-i&#231;me ve plaj alanlar&#305;ndan se&#231;ili kareler.</value></data>
+  <data name="Gallery.Lightbox.Badge" xml:space="preserve"><value>B&#252;y&#252;t</value></data>
+  <data name="Gallery.Lightbox.Close" xml:space="preserve"><value>Galeriyi kapat</value></data>
+  <data name="Gallery.Lightbox.Next" xml:space="preserve"><value>Sonraki g&#246;rsel</value></data>
+  <data name="Gallery.Lightbox.Open" xml:space="preserve"><value>{0} g&#246;rselini a&#231;</value></data>
+  <data name="Gallery.Lightbox.Previous" xml:space="preserve"><value>&#214;nceki g&#246;rsel</value></data>
   <data name="Gallery.Room.Deluxe.Short" xml:space="preserve"><value>Do&#287;al tonlarda premium oda deneyimi.</value></data>
   <data name="Gallery.Room.Deluxe.Title" xml:space="preserve"><value>Deluxe Interior</value></data>
   <data name="Gallery.Room.Double.Short" xml:space="preserve"><value>&#199;ift ki&#351;ilik konfor odakl&#305; double oda.</value></data>
